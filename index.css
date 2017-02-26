@@ -772,7 +772,6 @@ a:active {
     }
     .vimeoInk{
         width:100%;
-        height:100%;
     }
     #ink1{
         margin-left: 0;
@@ -842,6 +841,9 @@ a:active {
     }
     #tailMaterial{
         margin-top: -51px;
+    }
+    #lilypad{
+        width:75%;
     }
 }
 @media all and (max-width: 414px){
@@ -944,6 +946,10 @@ a:active {
     }
     .projectTitle{
         margin-top: -50px;
+    }
+    .vimeoInk{
+        width:90%;
+        height:100%;
     }
 
 
