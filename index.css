@@ -947,6 +947,7 @@ a:active {
     }
     #aboutText{
         margin-top: 20px;
+        line-height: 159%
     }
     .besides{
         font-size: 20px;
