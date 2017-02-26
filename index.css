@@ -1002,6 +1002,7 @@ a:active {
     .textOnVideo{
         font-size: 14px;
         width:100%;
+        line-height: 169%;
     }
     .prototypes{
         margin-top: -320px;
