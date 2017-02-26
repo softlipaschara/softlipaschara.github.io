@@ -657,8 +657,8 @@ a:active {
     .textOnVideo{
         min-width:100%;
         margin-bottom: 18%;
-        margin-top: 18%;
-        font-size: 18px;
+        margin-top: 14%;
+        font-size: 25px;
         color:#1A1A1A;
         text-shadow:none;
         line-height: 134%;
@@ -815,7 +815,7 @@ a:active {
     }
     .prototypes{
         font-size: 30px;
-        margin-top: -330px;
+        margin-top: -630px;
     }
     .prototypeGifs{
         margin-top:0px ;
@@ -952,6 +952,9 @@ a:active {
         width:90%;
         height:100%;
     }
+    .textOnVideo{
+        font-size: 18px;
+    }
 
 
 }
@@ -988,6 +991,9 @@ a:active {
     }
     .backButton{
         margin-left: 9%;
+    }
+    .textOnVideo{
+        font-size: 16px;
     }
 
 }
