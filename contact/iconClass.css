@@ -1,0 +1,14 @@
+/*
+
+This file define the font content for hover.css
+
+font list is here:
+http://astronautweb.co/snippet/font-awesome/#font-awesome-list
+
+NOTICE: pseudo code ":before" must be add as the suffix, reason referred to: https://github.com/IanLunn/Hover
+
+*/
+
+.hvr-icon-up:before{
+    content: "\f0cb";
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta  name="viewport" charset="UTF-8" content="width=device-width, initial-scale=1">
+    <title>sensing armband</title>
+    <!--<script type="text/javascript" src="hideContent.js"></script>-->
+    <link href="./index.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <div style="z-index: 31">
+        <div onclick="goBack()"><img  class="backButton" src="imgA/backButtonWhite.png"></div>
+        <script>
+            function goBack() {
+                window.history.back();
+            }
+        </script>
+    </div>
+    <div  class="armbandGif" style="z-index: 1">
+        <div id="video">
+            <video autoplay="autoplay" loop="loop" muted="muted" width="100%">
+                <source src="https://s3.eu-central-1.amazonaws.com/omzug.com/gif/armbandprototype.mp4" type="video/mp4"></video>
+        </div>
+    </div>
+    <div class="containerCenter">
+        <div class="insBorrowTitle">
+            Sensing Armband
+        </div>
+    </div>
+    <div class="containerCenter">
+        <div  class=" projectContent projectTextInsBorrow" >
+            <b>Tools: <br/>
+                Photon, Vibration Motor, Pressure Sensor<br/></b><br/>
+            <b>Teamwork:</b><br/> Xinyue Yang, Ying Li<br/><br/>
+            <b>Technology:</b><br/>
+            # IoT <br/><br/>
+
+            Sensing armband enables us to communicate in a sensual way. This prototype is cloud connected,
+            ask your best friend to wear it. If you miss him/her, anywhere, anytime, just give it a naughty touch!
+        </div>
+    </div>
+    <div class="centerInk" style="margin-top: 30px; text-align: center" >
+        <iframe  class="vimeoInk" src="https://player.vimeo.com/video/204383527"
+                 width="960" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+        </iframe>
+    </div>
+</body>
+</html>

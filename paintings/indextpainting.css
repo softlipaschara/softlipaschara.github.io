@@ -1,0 +1,38 @@
+@import url("../common.css");
+
+
+
+div.carousel-caption {
+    text-align: center;
+}
+
+
+.carousel-control.right,.carousel-control.left {
+    background-image: none;
+}
+
+div.item {
+    text-align: center;
+}
+
+div.carousel-inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+a:visited {
+    color: white;
+}
+
+a.link {
+    color: white;
+}
+
+a.back {
+    color: grey;
+    font-size: 16px;
+}
+

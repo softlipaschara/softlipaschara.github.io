@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" charset="UTF-8" content="width=device-width, initial-scale=1">
+    <title>Xinyue</title>
+    <!--<Link href="css/bootstrap.css" type="text/css" rel="stylesheet"/>-->
+
+
+    <link href="./index.css" type="text/css" rel="stylesheet" />
+
+</head>
+<body>
+
+    <div id="mask"></div>
+    <div id="header" href="#">
+        <div>
+            <ul id="navigation">
+                <li id="indexButton"><span class="title btn btn-default">
+                    <a id="indexTitle" href="#selectedWorks">Design</a>
+                </span></li>
+                <!--<li><span class="title"><a href="paintings/indexpainting.html">Drawings</a></span></li>-->
+                <!--<li><span class="title"><a href="./poems/indexpoem.html">Photography</a></span></li>-->
+                <li id="aboutButton"><span class="title" >
+                    <a id="aboutTitle" href="#about">About</a>
+                </span></li>
+                <li id="contactButton"><span class="title">
+                    <a id="contactTitle" href="#contact">Contact</a>
+                </span></li>
+            </ul>
+        </div>
+    </div><!-- end header -->
+    <div id="index">
+        <div id="video">
+            <video autoplay="autoplay" loop="loop" muted="muted" width="100%">
+                <source src="https://s3.eu-central-1.amazonaws.com/omzug.com/gif/armbandprototype.mp4" type="video/mp4"></video>
+        </div>
+        <div class="itemCenter">
+            <div>
+            <p class="textOnVideo">I'm Xinyue Yang,<br/>an interaction and product designer<br/>with passion for electronics, codes, web<br/>
+                and human computer interaction.</p>
+            </div>
+        </div>
+        <div class="selectedWorks" >
+           <p><a name="selectedWorks"></a> Selected Works</p>
+            <!--<p>Selected Works</p>-->
+        </div>
+        <!--<div>-->
+            <!--<iframe src="https://player.vimeo.com/video/195434826?autoplay=1&title=0&byline=0&portrait=0"-->
+                    <!--width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
+        <!--</div>-->
+        <div class="flexSpaceAround">
+            <div class="center">
+                <div class="containerColumn" >
+                    <!--<a id="inkButton" href="#">-->
+                    <a id="inkButton" href="ink-animation.html">
+                        <img class="breezeBlock" id="leapMotion" src="imgA/leap7.png"/>
+                        <p class="smallTitle">Interactive Ink Animation</p>
+                    </a>
+                </div>
+            </div>
+            <div class="center">
+                <div class="containerColumn">
+                    <a id="jieButton" href="jie.html">
+                        <img class="breezeBlock" id="jieThumb" src="imgA/jieThumb.png"/>
+                        <p class="smallTitle">Jie 借</p>
+                    </a>
+                </div>
+            </div>
+            <div class="center">
+                <div class="containerColumn">
+                    <a id="omzugButton" href="omzug.html">
+                        <img class="breezeBlock" id="omzugThumb" src="imgA/omzugmac.png"/>
+                        <p class="smallTitle">Omzug Renting Platform</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="flexSpaceAround">
+            <div class="center">
+                <div class="containerColumn">
+                    <a id="webButton" href="web.html">
+                        <img class="breezeBlock" id="webThumb" src="imgA/webThumb.png"/>
+                        <p class="smallTitle">My Personal Website</p>
+                    </a>
+                </div>
+            </div>
+            <div class="center">
+                <div class="containerColumn">
+                    <a id="breezeButton" href="breeze.html">
+                        <img class="breezeBlock" id="breezeThumb" src="imgA/breezeThumb.png"/>
+                        <p class="smallTitle">Breeze</p>
+                    </a>
+                </div>
+            </div>
+            <div class="center">
+                <div class="containerColumn">
+                    <div id="magpuzzButton" href="magpuzz.html">
+                        <img class="breezeBlock" id="magThumb" src="imgA/white.png"/>
+                        <p class="smallTitle" style="color:white">Magpuzz</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="prototypePart">
+            <div class="containerCenter prototypes">
+                <p>#Prototypes</p>
+            </div>
+            <div>
+                <img class="grids" src="imgA/grids.png">
+            </div>
+            <div class="prototypeGifs">
+                <a  class="prototypeImage"  href="emotional-tail.html">
+                    <img class="roundMasks" src="imgA/saodi_round.gif">
+                </a>
+                <a  class="prototypeImage"  href="responsive-lighting.html">
+                    <img  class="roundMasks" src="imgA/streetLighting_round.gif">
+                </a>
+                <a  class="prototypeImage"  href="sensing-armband.html">
+                    <img  class="roundMasks" src="imgA/tactilePrototype_round.gif">
+                </a>
+                <a  class="prototypeImage"  href="breathing-surface.html">
+                    <img  class="roundMasks" src="imgA/adaptiveSurface_round.gif">
+                </a>
+            </div>
+            <div class="prototypeTitleBlock">
+                <p class="prototypeTitle">#Emotional Tail</p>
+                <p class="prototypeTitle">#Responsive Lighting</p>
+                <p class="prototypeTitle">#Sensing Armband</p>
+                <p class="prototypeTitle">#Breathing Surface</p>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="containerCenter">
+        <div class="containerColumn" id="about" style="display: none">
+            <div>
+                <p id="aboutText">I'm Xinyue Yang, an interaction and product designer with passion for electronics, codes, web, app and physical
+                    computing. <br/> Currently I am doing my Bachelor at Weissensee Art Academy Berlin, where with a foundation
+                        course of 'digital media' I kicked off my digital and coding obsession.
+                    Besides creating pure pixels on the screen,
+                    I also like to apply digital techniques to build interactive functional prototypes to bring them back into materiality
+                    and reality again.
+
+                </p>
+            </div>
+            <div class="download">
+                <a id="download" href="./directory/yourfile.pdf" download="newfilename">download CV</a>
+            </div>
+        </div>
+        <div id="besidesPart" style="display: none">
+
+
+            <div class="containerCenter besides">
+                <p>What's More About Me</p>
+            </div>
+            <div class="anotherMe">
+                <a  class="prototypeImage"  href="printing.html">
+                    <img class="roundMasks" src="imgA/rain.jpg">
+
+                </a>
+                <a  class="prototypeImage"  href="photography.html">
+                    <img  class="roundMasks" src="imgA/photography.jpg">
+                </a>
+                <a  class="prototypeImage"  href="painting.html">
+                    <img  class="roundMasks" src="imgA/chinesePainting.jpg">
+                </a>
+            </div>
+            <div class="prototypeTitleBlock">
+                <p class="besidesTitle">I Do Lino Print</p>
+                <p class="besidesTitle">I Do Photography</p>
+                <p class="besidesTitle">I Do Painting</p>
+            </div>
+        </div>
+        <div id="printPart"  style="display: none;text-align: center">
+            <a  class="noHoverStyle" name="printWorks">
+                <img class="printImage" src="imgA/raining.jpg">
+            </a>
+        </div>
+        <!--<div style="text-align: center; margin-top: 100px">-->
+            <!--<img class="moodCards" src="imgA/note.png">-->
+            <!--<img class="moodCards" src="imgA/drawing.png">-->
+            <!--<img class="moodCards" src="imgA/me.png">-->
+        <!--</div>-->
+        <!--<div style="text-align: center; margin-top: 0px">-->
+            <!--<img class="moodCards" src="imgA/linocut.png">-->
+            <!--<img class="moodCards" src="imgA/elab.png">-->
+            <!--<img class="moodCards" src="imgA/chilli.png">-->
+        <!--</div>-->
+        <!--<div style="text-align: center; margin-top: 0px">-->
+            <!--<img class="moodCards" src="imgA/model.png">-->
+            <!--<img class="moodCards" src="imgA/kinect.png">-->
+            <!--<img class="moodCards" src="imgA/schaum.png">-->
+        <!--</div>-->
+    </div>
+
+
+     <div class="containerCenter">
+        <div id="contact" style="display: none">
+            <div  class="containerColumn" id="contactBlock">
+                   <div>
+                        <div id="email">Email</div> <br/>softlipaschara@gmail.com
+                   </div>
+                    <div>
+                        <div id="phone">Phone</div> <br/>+49 17681914890
+                    </div>
+                    <div>
+                        <div id="address">Address</div> <br/>Heinrich-Heine-Platz 3, 10179 Berlin, Germany
+                    </div>
+            </div>
+        </div>
+     </div>
+    <div>
+        <div id="waterImage" style="display: none">
+            <img id="water" src="imgA/water.jpg">
+        </div>
+    </div>
+
+    <div id="jiePart" style="display:none">
+        <p class="projectTitle">Jie</p>
+    </div>
+    <!--<div class="containerCenter">-->
+        <!--<div style="width:960px;height:540px;">-->
+            <!--<video poster="imgA/breezeVideoBackground.png" controls preload="auto" width="100%">-->
+                <!--<source src="https://s3.eu-central-1.amazonaws.com/omzug.com/gif/breezeLamp.mp4" type="video/mp4"></video>-->
+        <!--</div>-->
+    <!--</div>-->
+
+
+    <div class="containerCenter">
+        <p id="bottom">© 2017 XINYUE YANG</p>
+    </div>
+
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+    <script type="text/javascript" src="hideContent.js"></script>
+</body>
+</html>

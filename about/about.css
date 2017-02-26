@@ -1,0 +1,38 @@
+@import url("../common.css");
+
+
+.container {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 60px;
+
+
+
+
+
+}
+
+
+
+div.introduction{
+    margin-left:70px;
+    line-height: 1.9em;
+    text-align: left;
+    margin-top: 10px;
+}
+
+
+p.chinese{
+    font-size: 13px;
+    line-height: 1.8em;
+}
+
+a:link {
+    color: #2b2b2b;
+}
+
+a:visited{
+    color: #2b2b2b;
+}

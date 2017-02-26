@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta  name="viewport" charset="UTF-8" content="width=device-width, initial-scale=1">
+    <title>inkAnimation</title>
+    <!--<script type="text/javascript" src="hideContent.js"></script>-->
+    <link href="./index.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        <div onclick="goBack()"><img  class="backButton" src="imgA/backButton.png"></div>
+        <script>
+            function goBack() {
+                window.history.back();
+            }
+        </script>
+    </div>
+    <div class="flexSpaceAround">
+        <div class="centerInk">
+            <div class="containerColumnInkText">
+                <h3 class="projectTitle">Interactive Ink Animation</h3>
+                <p class="projectTextInsBorrow">
+
+                    <b>Tools:<br/> processing, photoshop, leap motion<br/><br/></b>
+                    In this project I brought traditional Chinese literati painting to life.<br/>
+                    The interactive part starts with reaching a hand upon Leap Motion controller,
+                    which can sense the movement of your hands, a frog will appear on the screen and move according to the
+                    hand position.
+                    All of the tadpoles will swim away from it. When there's no hand, the frog will disappear and the babies
+                    will swim back to their original position.
+                </p>
+            </div>
+            <div class="containerColumnInkPic">
+                <img id="ink1" src="imgA/ink1.jpg">
+            </div>
+        </div>
+        <div class="centerInk">
+            <iframe class="vimeoInk" src="https://player.vimeo.com/video/202025192"
+                    width="960" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+
+            </iframe>
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta  name="viewport" charset="UTF-8" content="width=device-width, initial-scale=1">
+    <title>painting</title>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/>
+    <link href="./index.css" type="text/css" rel="stylesheet" />
+</head>
+</head>
+<style>
+    .printImageStyle{
+        max-width: 100%;
+        max-height:100%;
+    }
+    .slick-prev:before{
+        color:cadetblue;
+    }
+    .slick-next:before{
+        color:cadetblue;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        width : 100%;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .slider {
+        width :55%;
+
+    }
+    .s-container{
+        height : 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    @media all and (max-width: 414px) {
+        .container{
+            margin-top: -51px;
+        }
+        .indiaText{
+            margin-top:15px;
+        }
+        .slider{
+            width:80%;
+        }
+    }
+    @media all and (max-width: 375px){
+        .container{
+            margin-top: -66px;
+        }
+    }
+    @media all and (max-width: 320px) {
+        .container{
+            margin-top: -86px;
+        }
+    }
+</style>
+<body>
+    <div>
+        <div onclick="goBack()"><img  class="backButton" src="imgA/backButton.png"></div>
+        <script>
+            function goBack() {
+                window.history.back();
+            }
+        </script>
+    </div>
+    <!--<div class="containerCenter">-->
+        <!--<div class="projectContent projectTextInsBorrow indiaText" >-->
+            <!--<div>-->
+                <!--I started to do Lino Cut in the year of 2017. <br/><br/>-->
+                <!--1. Rain drops.<br/> 2. Chicken mom and baby for 2017 Chinese New Year.<br/>-->
+                <!--3. A whale tail in the bowl.<br/> 4. On the way home stepping on the snow field under the moon.-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+    <div class="container" >
+        <div class="slider" data-slick='{"slidesToShow": 1, "slidesToScroll": 1}'>
+            <div class="s-container" style="display: flex"><img class="printImageStyle" src="imgA/p1.jpg"></div>
+            <div class="s-container" style="display: flex"><img class="printImageStyle" src="imgA/p2.jpg"></div>
+            <div class="s-container" style="display: flex"><img class="printImageStyle" src="imgA/p3.jpg"> </div>
+            <div class="s-container" style="display: flex"><img class="printImageStyle" src="imgA/p4.jpg"> </div>
+            <div class="s-container" style="display: flex"><img class="printImageStyle" src="imgA/p5.jpg"> </div>
+            <div class="s-container" style="display: flex"><img class="printImageStyle" src="imgA/p6.jpg"> </div>
+            <div class="s-container" style="display: flex"><img class="printImageStyle" src="imgA/p7.jpg"> </div>
+            <div class="s-container" style="display: flex"><img class="printImageStyle" src="imgA/p8.jpg"> </div>
+            <!--<div class="s-container" style="display: flex"><img class="printImageStyle" src="imgA/p9.jpg"> </div>-->
+
+        </div>
+    </div>
+
+
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+    <script src="carousel.js"></script>
+</body>
+</html>

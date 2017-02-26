@@ -1,0 +1,10 @@
+@import url("../common.css");
+@import "iconClass.css";
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    top: 130px;
+}
+
