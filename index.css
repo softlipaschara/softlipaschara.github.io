@@ -649,6 +649,10 @@ a:active {
     .center{
         min-width : 100%;
         /*max-width : 100%;*/
+        width:100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
     .textOnVideo{
         min-width:100%;
