@@ -845,6 +845,9 @@ a:active {
     #lilypad{
         width:75%;
     }
+    .armbandGif{
+        margin-top: -51px;
+    }
 }
 @media all and (max-width: 414px){
     #email{
@@ -932,9 +935,7 @@ a:active {
         font-size: 30px;
         margin-top: -360px;
     }
-    .armbandGif{
-        margin-top: 20px;
-    }
+
     .printImage{
         width:90%;
     }
