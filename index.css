@@ -699,6 +699,7 @@ a:active {
         letter-spacing: 0.06em;
         font-size: 16px;
         margin-bottom: 20px;
+        padding:0 20px;
     }
     #bottom{
         font-size: 11px;
