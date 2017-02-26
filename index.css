@@ -850,6 +850,10 @@ a:active {
     .armbandGif{
         margin-top: -51px;
     }
+    .roundMasks{
+        width: 100%;
+
+    }
 }
 @media all and (max-width: 414px){
     #email{
@@ -996,6 +1000,9 @@ a:active {
     }
     .textOnVideo{
         font-size: 16px;
+    }
+    .prototypes{
+        margin-top: -320px;
     }
 
 }
