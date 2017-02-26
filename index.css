@@ -1000,7 +1000,8 @@ a:active {
         margin-left: 9%;
     }
     .textOnVideo{
-        font-size: 16px;
+        font-size: 14px;
+        width:100%;
     }
     .prototypes{
         margin-top: -320px;
