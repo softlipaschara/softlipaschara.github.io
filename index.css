@@ -680,6 +680,12 @@ a:active {
     margin-bottom: 10px;
     font-size: 20px;
 }
+.breezeVideo{
+    margin-top: 50px;
+    margin-bottom: 70px;
+    letter-spacing: .06em;
+    font-weight: 600;
+}
 
 @media all and (max-width: 768px){
     /*.breezeBlock{*/
@@ -901,7 +907,15 @@ a:active {
     }
     .layoutGif{
         width:90%;
+        height: 100%;
         margin-left: 0;
+        margin-bottom: 70px;
+    }
+    .breezeVideo{
+        margin-bottom: -20px;
+    }
+    .breezeVideoTitle{
+        margin-bottom: -30px;
     }
 }
 @media all and (max-width: 414px){
@@ -1011,6 +1025,25 @@ a:active {
     .conceptSketch{
         width:75%;
     }
+    .oneOfTwo{
+        width: 90%;
+        height: 100%;
+        margin-top: 70px;
+        padding: 50px 0px;
+    }
+    .breezeVideo{
+        margin-top: 10px;
+    }
+    .layoutGif{
+        margin-bottom: 20px;
+    }
+    .breezeVideoTitle{
+        margin-bottom: 0px;
+        margin-top: -80px;
+    }
+    .assembleTitleText{
+        font-size: 17px;
+    }
 
 
 }
@@ -1034,6 +1067,10 @@ a:active {
     .vimeoInk{
         margin-top: 18px;
     }
+    .oneOfTwo{
+        padding: 40px 0px;
+    }
+
 }
 @media all and (max-width: 320px){
     #email{
@@ -1055,6 +1092,9 @@ a:active {
     }
     .prototypes{
         margin-top: -320px;
+    }
+    .oneOfTwo{
+        padding: 30px 0px;
     }
 
 }
