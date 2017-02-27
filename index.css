@@ -641,7 +641,10 @@ a:active {
     width:300px;
     padding:5px;
 }
-
+.metaphors{
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
 
 
 @media all and (max-width: 768px){
