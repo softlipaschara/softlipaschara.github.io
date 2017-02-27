@@ -655,6 +655,14 @@ a:active {
     width:33%;
     flex-wrap: wrap;
 }
+.layoutText{
+    align-self: center;
+    width:20%;
+}
+.layoutGif{
+    width:50%;
+    margin-left: -10%;
+}
 
 @media all and (max-width: 768px){
     /*.breezeBlock{*/
@@ -873,6 +881,10 @@ a:active {
     .blowGif{
         width:80%;
         margin-top: -10px;
+    }
+    .layoutGif{
+        width:90%;
+        margin-left: 0;
     }
 }
 @media all and (max-width: 414px){
