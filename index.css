@@ -788,7 +788,7 @@ a:active {
         margin: 40px 0;
     }
     .insBorrow{
-        margin-top: 0px;
+        margin-top: -51px;
     }
     .projectTextInsBorrow{
         width:100%;
@@ -871,9 +871,6 @@ a:active {
     }
     .electronics{
         width: 63%;
-    }
-    .insBorrow{
-        margin-top: 15px;
     }
     .projectContent{
         margin:0 5%;
