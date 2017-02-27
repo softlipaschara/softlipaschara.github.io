@@ -685,6 +685,7 @@ a:active {
     margin-bottom: 70px;
     letter-spacing: .06em;
     font-weight: 600;
+    width:960px;
 }
 
 @media all and (max-width: 768px){
@@ -912,7 +913,7 @@ a:active {
         margin-bottom: 70px;
     }
     .breezeVideo{
-        margin-bottom: -20px;
+        margin-bottom: 50px;
     }
     .breezeVideoTitle{
         margin-bottom: -30px;
