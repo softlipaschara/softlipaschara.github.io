@@ -645,12 +645,16 @@ a:active {
     margin-top: 70px;
     flex-wrap: wrap;
     margin-bottom: 50px;
+    width:80%;
 }
 .conceptSketch{
-    width:33%;
+    width:30%;
     margin:-20px 0;
 }
-
+.blowGif{
+    width:33%;
+    flex-wrap: wrap;
+}
 
 @media all and (max-width: 768px){
     /*.breezeBlock{*/
@@ -866,6 +870,10 @@ a:active {
     .conceptSketch{
         width:50%;
     }
+    .blowGif{
+        width:80%;
+        margin-top: -10px;
+    }
 }
 @media all and (max-width: 414px){
     #email{
@@ -970,6 +978,9 @@ a:active {
     }
     .textOnVideo{
         font-size: 18px;
+    }
+    .conceptSketch{
+        width:75%;
     }
 
 
