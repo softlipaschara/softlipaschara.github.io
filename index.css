@@ -663,6 +663,23 @@ a:active {
     width:50%;
     margin-left: -10%;
 }
+.componentImage{
+    width:100%;
+    /*margin:30px 20px;*/
+    height:100%;
+}
+.oneOfTwo{
+    width:35%;
+    height:100%;
+    margin-top: 60px;
+    padding:0 30px;
+}
+.assembleTitleText{
+    line-height: 134%;
+    letter-spacing: 0.04em;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
 
 @media all and (max-width: 768px){
     /*.breezeBlock{*/
