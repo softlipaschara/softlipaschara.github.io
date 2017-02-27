@@ -642,8 +642,13 @@ a:active {
     padding:5px;
 }
 .metaphors{
-    margin-top: 50px;
+    margin-top: 70px;
     flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.conceptSketch{
+    width:33%;
+    margin:-20px 0;
 }
 
 
@@ -857,6 +862,9 @@ a:active {
     .roundMasks{
         width: 100%;
 
+    }
+    .conceptSketch{
+        width:50%;
     }
 }
 @media all and (max-width: 414px){
