@@ -21,24 +21,10 @@ window.onload = function(){
         document.getElementById("besidesPart").style.display = 'block';
         return false;
     }
-    function showPrint() {
-        console.log("button pressed!");
-        document.getElementById("index").style.display = 'none';
-        document.getElementById("about").style.display = 'block';
-        document.getElementById("contact").style.display = 'none';
-        document.getElementById("mask").className = "maskWhite";
-        document.getElementById("indexTitle").className = "aboutActive";
-        document.getElementById("aboutTitle").className = "aboutActive";
-        document.getElementById("contactTitle").className = "aboutActive";
-        document.getElementById("waterImage").style.display = 'none';
-        document.getElementById("besidesPart").style.display = 'block';
-        document.getElementById("printPart").style.display = 'block';
-        return false;
-    }
 
 
     function showContact(){
-        document.getElementById("printPart").style.display = 'none';
+        //document.getElementById("printPart").style.display = 'none';
         document.getElementById("index").style.display = 'none';
         document.getElementById("about").style.display = 'none';
         document.getElementById("contact").style.display = 'block';
@@ -62,7 +48,7 @@ window.onload = function(){
         document.getElementById("contactTitle").className = "indexActive";
         document.getElementById("waterImage").style.display = 'none';
         document.getElementById("besidesPart").style.display = 'none';
-        document.getElementById("printPart").style.display = 'none';
+        //document.getElementById("printPart").style.display = 'none';
         return false;
     }
 
@@ -103,29 +89,8 @@ window.onload = function(){
     indexButton.addEventListener("click", function(){
         location.hash = "selectedWorks"
     });
-    var printButton = document.getElementById("printButton");
-    printButton.addEventListener("click", function(){
-        showPrint()
-    });
 
 
 
 
-    //var inkButton = document.getElementById("inkButton");
-    //inkButton.addEventListener("click", function(){
-    //    showInk()
-    //});
-    //var jieButton = document.getElementById("jieButton");
-    //jieButton.addEventListener("click", function(){
-    //    showJie()
-    //});
-
-
-    //function showElement(target){
-    //    var changingElements = ["index", "contact", "about"];
-    //    changingElements.forEach(function(elementName){
-    //        var shouldShow = elementName === target ? "block" : "none";
-    //        document.getElementById(elementName).style.display = shouldShow;
-    //    })
-    //}
 };
