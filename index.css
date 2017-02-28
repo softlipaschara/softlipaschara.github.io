@@ -687,6 +687,9 @@ a:active {
     font-weight: 600;
     width:960px;
 }
+.breezeVideoTitle{
+    margin-bottom: -25px;
+}
 
 @media all and (max-width: 768px){
     /*.breezeBlock{*/
