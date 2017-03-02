@@ -58,6 +58,7 @@ h1 {
 #video{
     margin-top: -14%;
     z-index: 1;
+    margin-bottom: 2%;
 }
 .title{
     color:white;
@@ -554,7 +555,7 @@ a:active {
     font-weight:800;
 }
 .prototypeGifs{
-    margin-top: -387px;
+    margin-top: -465px;
     /*text-align: center;*/
     z-index: 1;
 }
@@ -594,6 +595,12 @@ a:active {
     text-align: center;
     /*line-height: 1.6;*/
     letter-spacing: 0.06em;
+}
+.prototypeTag{
+    font-size: 21px;
+    letter-spacing: 0.06em;
+    color: black;
+    align-self: center;
 }
 .besidesTitle{
     font-size: 21px;
@@ -691,6 +698,23 @@ a:active {
     margin-bottom: -25px;
 }
 
+@media all and (max-width: 1280px){
+    #video{
+        margin-bottom: 0;
+    }
+    .prototypeGifs{
+        margin-top: -387px;
+    }
+}
+@media all and (max-width: 1024px){
+    .roundMasks{
+        width:180px;
+    }
+    .prototypeGifs{
+        margin-top: -31%;
+    }
+
+}
 @media all and (max-width: 768px){
     /*.breezeBlock{*/
         /*width:100%;*/
