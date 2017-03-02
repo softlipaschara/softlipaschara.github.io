@@ -699,6 +699,9 @@ a:active {
 .breezeVideoTitle{
     margin-bottom: -25px;
 }
+.indiaText{
+    margin-bottom: 30px;
+}
 
 @media all and (max-width: 1280px){
     #video{
