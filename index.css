@@ -570,6 +570,9 @@ a:active {
     padding:0 11px;
     z-index: 1;
 }
+.prototypeImage{
+    margin:-10px 0;
+}
 .prototypeImage:link{
     background-color: transparent;
     color:black;
@@ -1081,6 +1084,12 @@ a:active {
     .assembleTitleText{
         font-size: 17px;
     }
+    .prototypeImage{
+        margin:-24px 0;
+    }
+    .prototypeTag{
+        font-size: 17px;
+    }
 
 
 }
@@ -1133,5 +1142,6 @@ a:active {
     .oneOfTwo{
         padding: 30px 0px;
     }
+
 
 }
