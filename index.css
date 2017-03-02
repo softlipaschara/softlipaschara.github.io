@@ -700,7 +700,7 @@ a:active {
     margin-bottom: -25px;
 }
 .indiaText{
-    margin-bottom: 30px;
+    margin-bottom: 5%;
 }
 
 @media all and (max-width: 1280px){
@@ -709,6 +709,9 @@ a:active {
     }
     .prototypeGifs{
         margin-top: -387px;
+    }
+    .indiaText{
+        margin-bottom: 20px;
     }
 }
 @media all and (max-width: 1024px){
