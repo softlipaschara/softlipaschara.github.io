@@ -1,11 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta  name="viewport" charset="UTF-8" content="width=device-width, initial-scale=1">
+    <title>Omzug</title>
+    <link href="./index.css" type="text/css" rel="stylesheet" />
     <link rel="shortcut icon" type="image/png" href="imgA/favicon.png"/>
 </head>
 <body>
+    <div>
+        <div onclick="goBack()"><img  class="backButton" src="imgA/backButton.png"></div>
+        <script>
+            function goBack() {
+                window.history.back();
+            }
+        </script>
+    </div>
+    <div class="containerCenter">
+        <img src="imgA/omzugResponsive.png">
+    </div>
 
 </body>
 </html>
