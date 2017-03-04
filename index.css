@@ -706,8 +706,9 @@ a:active {
     margin-bottom: 5%;
 }
 #omzugLogo{
-    width:17%;
+    width:16%;
     height:100%;
+    margin-right: 5%;
 }
 .omzugLink{
     font-size: 20px;
@@ -719,14 +720,29 @@ a:active {
 .omzugGif{
     width:50%;
     height:100%;
+    margin-bottom: 30px;
 }
 .berlinIllustration{
     width:70%;
     height:100%;
 }
 #omzugVideo{
+    width:85%;
+    height:100%;
+    margin-bottom: 30px;
+}
+.animatedRoom{
     width:70%;
     height:100%;
+}
+.logoText{
+    width:30%;
+    margin-left: 5%;
+    align-self: center;
+}
+.logoBlock{
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 @media all and (max-width: 1280px){
     #video{
@@ -737,6 +753,9 @@ a:active {
     }
     .indiaText{
         margin-bottom: 20px;
+    }
+    #omzugVideo{
+        margin-bottom: 0;
     }
 }
 @media all and (max-width: 1024px){
@@ -1112,6 +1131,22 @@ a:active {
     .prototypeTag{
         font-size: 17px;
     }
+    #omzugVideo{
+        width:90%;
+        height:100%;
+    }
+    .omzugLink{
+        margin-top: -6%;
+    }
+    .omzugGif{
+        width:100%;
+        margin-bottom: 0;
+    }
+    #omzugLogo{
+        margin-right: 0;
+        width:25%;
+        margin-bottom: 20px;
+    }
 
 
 }
@@ -1139,6 +1174,7 @@ a:active {
         padding: 40px 0px;
     }
 
+
 }
 @media all and (max-width: 320px){
     #email{
@@ -1163,6 +1199,9 @@ a:active {
     }
     .oneOfTwo{
         padding: 30px 0px;
+    }
+    .omzugLink{
+        margin-bottom: 6%;
     }
 
 
