@@ -1203,6 +1203,9 @@ a:active {
     .omzugLink{
         margin-bottom: 6%;
     }
+    .omzugTitle{
+        font-size: 18px;
+    }
 
 
 }
