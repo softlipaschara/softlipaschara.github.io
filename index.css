@@ -705,7 +705,29 @@ a:active {
 .indiaText{
     margin-bottom: 5%;
 }
-
+#omzugLogo{
+    width:17%;
+    height:100%;
+}
+.omzugLink{
+    font-size: 20px;
+    line-height: 134%;
+    letter-spacing: 0.04em;
+    margin-top: -1%;
+    margin-bottom: 2%;
+}
+.omzugGif{
+    width:50%;
+    height:100%;
+}
+.berlinIllustration{
+    width:70%;
+    height:100%;
+}
+#omzugVideo{
+    width:70%;
+    height:100%;
+}
 @media all and (max-width: 1280px){
     #video{
         margin-bottom: 0;
