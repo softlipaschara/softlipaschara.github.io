@@ -798,6 +798,7 @@ a:active {
         font-size: medium;
         margin-top: 20px;
         color:#393939;
+        margin-bottom: 20px;
         margin-left: 12%;
     }
     #mask{
@@ -866,11 +867,18 @@ a:active {
     #webButton:link{
         padding:0 10px;
     }
+    #breezeButton:link{
+        padding:0 10px;
+    }
     #leapMotion{
         width:100%;
         height:100%;
     }
     #jieThumb{
+        width:100%;
+        height:100%;
+    }
+    #breezeThumb{
         width:100%;
         height:100%;
     }
