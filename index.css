@@ -287,8 +287,8 @@ a:active {
     margin-bottom: 30px;
 }
 #about{
-    width:51%;
-    margin-top: 30px;
+    width:100%;
+    margin: 30px 20% 0 20%;
 }
 #aboutText{
     width:100%;
@@ -1075,7 +1075,7 @@ a:active {
     }
     .roundMasks{
         width:200px;
-        margin:-10px 0;
+        margin:3px 0;
     }
     .prototypes{
         font-size: 30px;
@@ -1085,12 +1085,16 @@ a:active {
     .printImage{
         width:90%;
     }
+    #about{
+        margin:-10px 10px;
+    }
     #aboutText{
         margin-top: 20px;
         line-height: 159%
     }
     .besides{
         font-size: 20px;
+        margin-bottom: 0;
     }
     .projectTitle{
         margin-top: -50px;
