@@ -720,14 +720,14 @@ a:active {
 .omzugGif{
     width:50%;
     height:100%;
-    margin-bottom: 30px;
+    margin-bottom: 4%;
 }
 .berlinIllustration{
     width:70%;
     height:100%;
 }
 #omzugVideo{
-    width:85%;
+    width:90%;
     height:100%;
     margin-bottom: 30px;
 }
@@ -748,9 +748,10 @@ a:active {
     display: none;
 }
 .omzugImage{
-    width:90%;
+    width:80%;
     height:100%;
-    margin:5% 0;
+    margin-top: 1%;
+    margin-bottom: 8%;
 }
 .omzugText{
     width:20%;
