@@ -1257,6 +1257,9 @@ a:active {
     .omzugTitle{
         font-size: 18px;
     }
+    .smallTitle{
+        font-size: 13px;
+    }
 
 
 }
