@@ -762,6 +762,9 @@ a:active {
     font-size: 20px;
     align-self: center;
 }
+.webVideo{
+    margin-top: -50px;
+}
 @media all and (max-width: 1280px){
     #video{
         margin-bottom: 0;
@@ -1197,6 +1200,9 @@ a:active {
     .omzugImage{
         width:90%;
         height:100%;
+    }
+    .webVideo{
+        margin-top: -30px;
     }
 
 }

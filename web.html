@@ -8,6 +8,35 @@
     <link rel="shortcut icon" type="image/png" href="imgA/favicon.png"/>
 </head>
 <body>
+    <div>
+        <div onclick="goBack()"><img  class="backButton" src="imgA/backButtonWhite.png"></div>
+        <script>
+            function goBack() {
+                window.history.back();
+            }
+        </script>
+    </div>
+    <div  class="armbandGif" style="z-index: 1">
+        <div id="video">
+            <video class="webVideo"  autoplay="autoplay" loop="loop" muted="muted" width="100%">
+                <source src="imgA/howIWork.mp4" type="video/mp4"></video>
+        </div>
+    </div>
+    <div class="containerCenter">
+        <div class="insBorrowTitle">
+            My Personal Website
+        </div>
+    </div>
+    <div class="containerCenter">
+        <div  class=" projectContent projectTextInsBorrow" >
+            <b>Tools: <br/></b>
+                Github, Html, CSS, Javascript<br/>
+            <br/>
+            This website was written by myself using html, css and javascript, I spent quite a time
+            on it. This is again a heavy experience for me to get along with web and code. Though
+            it's not perfectly done, I am still quite happy with the result and it's responsive!
+        </div>
+    </div>
 
 </body>
 </html>
