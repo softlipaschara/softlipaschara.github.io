@@ -747,6 +747,19 @@ a:active {
 .roomGif{
     display: none;
 }
+.omzugImage{
+    width:90%;
+    height:100%;
+    margin:5% 0;
+}
+.omzugText{
+    width:20%;
+    margin-left: 8%;
+    line-height: 134%;
+    letter-spacing: 0.04em;
+    font-size: 20px;
+    align-self: center;
+}
 @media all and (max-width: 1280px){
     #video{
         margin-bottom: 0;
@@ -1008,6 +1021,9 @@ a:active {
     .breezeVideoTitle{
         margin-bottom: -30px;
     }
+    .logoText{
+        margin:0 5%;
+    }
 }
 @media all and (max-width: 414px){
     #email{
@@ -1167,6 +1183,15 @@ a:active {
     }
     .roomGif{
         display: block;
+        width:90%;
+        height:100%;
+    }
+    .omzugText{
+        margin: 0 5%;
+        width: 100%;
+        font-size: 17px;
+    }
+    .omzugImage{
         width:90%;
         height:100%;
     }
