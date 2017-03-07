@@ -768,6 +768,9 @@ a:active {
 .webGif{
     display: none;
 }
+.whatILearned{
+    margin-bottom: 100px;
+}
 @media all and (max-width: 1280px){
     #video{
         margin-bottom: 0;
@@ -1212,6 +1215,9 @@ a:active {
     .webVideo{
         margin-top: -30px;
         display: none;
+    }
+    .whatILearned{
+        margin-bottom: 30px;
     }
 
 }
