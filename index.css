@@ -1171,8 +1171,7 @@ a:active {
         font-size: 17px;
     }
     #omzugVideo{
-        width:90%;
-        height:100%;
+        display: none;
     }
     .omzugLink{
         margin-top: -6%;
