@@ -765,6 +765,9 @@ a:active {
 .webVideo{
     margin-top: -50px;
 }
+.webGif{
+    display: none;
+}
 @media all and (max-width: 1280px){
     #video{
         margin-bottom: 0;
@@ -1192,6 +1195,12 @@ a:active {
         height:100%;
         margin:6% 0;
     }
+    .webGif{
+        display: block;
+        width:100%;
+        height:100%;
+        margin-top: -25px;
+    }
     .omzugText{
         margin: 0 5%;
         width: 100%;
@@ -1203,6 +1212,7 @@ a:active {
     }
     .webVideo{
         margin-top: -30px;
+        display: none;
     }
 
 }
