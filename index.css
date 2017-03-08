@@ -1225,6 +1225,10 @@ a:active {
     .whatILearned{
         margin-bottom: 30px;
     }
+    .myWeb{
+        width:90%;
+        height:100%;
+    }
 
 }
 @media all and (max-width: 375px){
