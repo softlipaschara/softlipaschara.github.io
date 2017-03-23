@@ -777,6 +777,13 @@ a:active {
     margin-top: 5%;
     margin-bottom: 5%;
 }
+.bgm{
+    font-size: 14px;
+    line-height: 134%;
+    letter-spacing: 0.04em;
+    margin-bottom: 5%;
+    margin-top: -3%;
+}
 @media all and (max-width: 1280px){
     #video{
         margin-bottom: 0;
@@ -1228,6 +1235,9 @@ a:active {
     .myWeb{
         width:90%;
         height:100%;
+    }
+    .bgm{
+        margin-top: -7%;
     }
 
 }
