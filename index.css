@@ -1174,8 +1174,11 @@ a:active {
     }
     .breezeVideoTitle{
         margin-bottom: 0px;
-        margin-top: 80px;
+        margin-top: 40px;
         font-size: 20px;
+    }
+    .componentImage{
+        margin-bottom: -70px;
     }
     .assembleTitleText{
         font-size: 17px;
