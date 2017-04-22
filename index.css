@@ -1182,6 +1182,7 @@ a:active {
     }
     .assembleTitleText{
         font-size: 17px;
+        margin-top: 20px;
     }
     .prototypeImage{
         margin:-24px 0;
