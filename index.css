@@ -248,6 +248,38 @@ a:active {
     flex-wrap: wrap;
 
 }
+.designBoom{
+    color:black;
+    font-size: 36px;
+    letter-spacing: 0.06em;
+    background-color: yellow;
+    padding:30px;
+}
+.breezeTitle{
+    margin-bottom: 70px;
+    z-index: 2;
+    margin-top: 30px;
+    font-size: 35px;
+    letter-spacing: .06em;
+    font-weight: 600;
+}
+.breezeText{
+    margin-top: 100px;
+}
+.textBegin{
+    margin-top: 50px;
+}
+.designBoom:hover{
+    color:black;
+    background-color: blue;
+    letter-spacing: 0.06em;
+}
+.designBoom:visited{
+    color:black;
+    background-color: yellow;
+    letter-spacing: 0.06em;
+}
+
 #email{
     color:#BDBDBD;
     margin-bottom: -35px;
@@ -1082,6 +1114,9 @@ a:active {
     }
     .paperFlow{
         width:60%;
+    }
+    .designBoom{
+        font-size: 14px;
     }
 
     .ideation{
