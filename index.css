@@ -266,6 +266,10 @@ a:active {
 .breezeText{
     margin-top: 100px;
 }
+.userTest{
+    width:40%;
+    height:40%;
+}
 .textBegin{
     margin-top: 50px;
 }
@@ -1088,6 +1092,10 @@ a:active {
     #water{
         margin-top: 203px;
         margin-bottom: -51px;
+    }
+    .userTest{
+        width:90%;
+        height:90%;
     }
     .backButton{
         margin-left: 7%;
