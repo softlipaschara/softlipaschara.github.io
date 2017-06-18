@@ -1033,7 +1033,8 @@ a:active {
     }
     .prototypes{
         font-size: 30px;
-        margin-top: -630px;
+        /*margin-top: -630px;*/
+        margin-top: 10%;
     }
     .prototypeGifs{
         margin-top:0px ;
@@ -1187,7 +1188,7 @@ a:active {
     }
     .prototypes{
         font-size: 30px;
-        margin-top: -360px;
+        /*margin-top: -360px;*/
     }
 
     .printImage{
@@ -1355,7 +1356,7 @@ a:active {
         line-height: 169%;
     }
     .prototypes{
-        margin-top: -320px;
+        /*margin-top: -320px;*/
     }
     .oneOfTwo{
         padding: 30px 0px;
