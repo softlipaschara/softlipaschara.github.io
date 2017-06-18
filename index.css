@@ -820,6 +820,10 @@ a:active {
     margin-bottom: 5%;
     margin-top: -3%;
 }
+.bucket{
+    margin-top: -220px;
+    width:25%;
+}
 @media all and (max-width: 1280px){
     #video{
         margin-bottom: 0;
@@ -848,6 +852,10 @@ a:active {
         /*width:100%;*/
         /*height: 500px;*/
     /*}*/
+    .bucket{
+        width:40%;
+        margin-top: -220px;
+    }
     .center{
         min-width : 100%;
         /*max-width : 100%;*/
@@ -1089,6 +1097,9 @@ a:active {
     /*#bottom{*/
         /*margin-top: -300px;*/
     /*}*/
+    .bucket{
+        width:90%;
+    }
     #email{
         margin-top: 64px;
     }
@@ -1314,10 +1325,18 @@ a:active {
     .oneOfTwo{
         padding: 40px 0px;
     }
+    .bucket{
+        margin-top: -248px;
+
+    }
 
 
 }
 @media all and (max-width: 320px){
+    .bucket{
+        margin-top: -290px;
+
+    }
     #email{
         margin-top: 20px;
     }
