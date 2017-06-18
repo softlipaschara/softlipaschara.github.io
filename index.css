@@ -1086,6 +1086,9 @@ a:active {
     }
 }
 @media all and (max-width: 414px){
+    /*#bottom{*/
+        /*margin-top: -300px;*/
+    /*}*/
     #email{
         margin-top: 64px;
     }
