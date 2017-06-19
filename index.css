@@ -821,8 +821,9 @@ a:active {
     margin-top: -3%;
 }
 .bucket{
-    margin-top: -220px;
+    margin-top: 6%;
     width:25%;
+    height:100%;
 }
 @media all and (max-width: 1280px){
     #video{
@@ -845,7 +846,6 @@ a:active {
     .prototypeGifs{
         margin-top: -31%;
     }
-
 }
 @media all and (max-width: 768px){
     /*.breezeBlock{*/
@@ -854,7 +854,7 @@ a:active {
     /*}*/
     .bucket{
         width:40%;
-        margin-top: -220px;
+        margin-top: 10%;
     }
     .center{
         min-width : 100%;
@@ -1100,6 +1100,7 @@ a:active {
     /*}*/
     .bucket{
         width:90%;
+        margin-top: 30px;
     }
     #email{
         margin-top: 64px;
@@ -1327,7 +1328,7 @@ a:active {
         padding: 40px 0px;
     }
     .bucket{
-        margin-top: -248px;
+        margin-top: 48px;
 
     }
 
@@ -1335,7 +1336,7 @@ a:active {
 }
 @media all and (max-width: 320px){
     .bucket{
-        margin-top: -290px;
+        margin-top: 30px;
 
     }
     #email{
