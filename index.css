@@ -824,6 +824,7 @@ a:active {
     margin-top: 6%;
     width:25%;
     height:100%;
+    margin-bottom: 6%;
 }
 @media all and (max-width: 1280px){
     #video{
@@ -1101,6 +1102,7 @@ a:active {
     .bucket{
         width:90%;
         margin-top: 30px;
+        margin-bottom: 50px;
     }
     #email{
         margin-top: 64px;
