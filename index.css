@@ -5,7 +5,7 @@
 body {
     padding: 0;
     margin:0;
-    font-family: "Abadi MT Condensed Light", Arial, sans-serif;
+    font-family: "signika NEGATIVE","ABEL","Abadi MT Condensed Light", Arial, sans-serif;
     font-weight: 300;
 }
 
@@ -512,10 +512,10 @@ a:active {
     margin-bottom: 30px;
 }
 .projectTextInsBorrow{
-    line-height: 134%;
-    letter-spacing: 0.04em;
+    line-height: 140%;
+    letter-spacing: 0.02em;
     margin-bottom: 0;
-    font-size: 20px;
+    font-size: 16px;
     width:70%;
 }
 .storyImage{
@@ -560,18 +560,18 @@ a:active {
 }
 .textRight{
     line-height: 134%;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.02em;
     margin-bottom: 0;
-    font-size: 20px;
+    font-size: 16px;
     width:20%;
     margin-left: 17%;
     margin-top: 13%;
 }
 .textLeft{
     line-height: 134%;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.02em;
     margin-bottom: 0;
-    font-size: 20px;
+    font-size: 16px;
     width:20%;
     margin-right: 17%;
     margin-top: 13%;
@@ -637,7 +637,7 @@ a:active {
     letter-spacing: 0.06em;
 }
 .prototypeTag{
-    font-size: 21px;
+    font-size: 18px;
     letter-spacing: 0.06em;
     color: black;
     align-self: center;
