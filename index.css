@@ -1328,6 +1328,9 @@ a:active {
     .bgm{
         margin-top: -7%;
     }
+    .blogText{
+      width:100%;
+    }
 
 }
 @media all and (max-width: 375px){
