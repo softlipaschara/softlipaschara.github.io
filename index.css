@@ -841,6 +841,12 @@ a:active {
     height:100%;
     margin-bottom: 6%;
 }
+.blogText{
+  width:85%;
+}
+.blogDate{
+  font-size: 12px;
+}
 @media all and (max-width: 1280px){
     #video{
         margin-bottom: 0;
