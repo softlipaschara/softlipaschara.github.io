@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta  name="viewport" charset="UTF-8" content="width=device-width, initial-scale=1">
+    <title>Scribbling Speech</title>
+    <!--<script type="text/javascript" src="hideContent.js"></script>-->
+    <link href="https://fonts.googleapis.com/css?family=Abel|Signika+Negative:300" rel="stylesheet">
+    <link href="./index.css" type="text/css" rel="stylesheet" />
+    <link rel="shortcut icon" type="image/png" href="imgA/favicon.png"/>
+</head>
+<body>
+    <div>
+        <div onclick="goBack()"><img  class="backButton" src="imgA/backButtonWhite.png"></div>
+        <script>
+            function goBack() {
+                window.history.back();
+            }
+        </script>
+    </div>
+    <div  class="armbandGif" style="z-index: 1">
+        <div id="video">
+            <video style="margin-top:5%;" autoplay="autoplay" loop="loop" muted="muted" width="100%">
+                <source src="imgA/main_movie_bird_sea.mp4" type="video/mp4"></video>
+        </div>
+    </div>
+    <div class="containerCenter">
+        <div class="insBorrowTitle">
+            Scribbling Speech
+        </div>
+    </div>
+    <div class="containerCenter">
+        <div  class=" projectContent projectTextInsBorrow" >
+            Supervised by Prof. Carola Zwick<br/>
+            Bachelor Project, July 2018<br/><br/>
+            <b>Tools: <br/></b>
+                Google Speech API, Google Natural Language API, Quickdraw Dataset, Processing<br/>
+            <br/>
+            <b>Idea:</b><br/>
+            Language and images are closely intertwined: We think in pictures
+            and we explain facts as spatial constellations. What if the spoken
+            word could be transformed into dynamic visual worlds in real time?
+            Speech input, machine learning and recurrent neural networks for
+            image generation allow to com- puter generate complex imaginary
+            worlds that follow the narrator and thus create complex animations
+            controlled by linguistic structures.<br/><br/>
+        </div>
+
+    </div>
+
+
+    <div class="containerCenter">
+        <div  class=" projectContent projectTextInsBorrow" >
+          <b>Concept Sketch:</b><br/>
+        </div>
+    </div>
+    <div class="containerCenter">
+        <img style="width:25%;height:15%; margin-top:3%;" src="imgA/concept_sketch.jpg">
+    </div>
+
+
+    <div class="containerCenter">
+        <div  class=" projectContent projectTextInsBorrow" >
+            <br/><br/><br/><br/><b>Create a Virtual World while Speaking</b><br/><br/>
+            In the model, the objects have their default position value x, y,
+            and z index. A camera has been applied to open our eyes to see this
+            world.
+        </div>
+    </div>
+    <div class="containerCenter" >
+        <div class="animatedRoom" style="width:50%;">
+            <video autoplay="autoplay" loop="loop" muted="muted" width=100%; style="border:1px solid;">
+                <source src="imgA/forward_view.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <div class="containerCenter" >
+        <div class="animatedRoom" style="width:50%;">
+            <video autoplay="autoplay" loop="loop" muted="muted" width=100%; style="border:1px solid;">
+                <source src="imgA/left_right_view.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+
+    <div class="containerCenter">
+        <div  class=" projectContent projectTextInsBorrow" >
+            <br/><br/><br/><br/><b>Initial Object Position</b><br/><br/>
+            SkyObject: clouds, sun, moon, airplane, stars...<br/>
+            AirObject: butterfly, bird, mosquito...<br/>
+            FloorObject: house, flowers, building, apple, girl, shoes...<br/>
+        </div>
+    </div>
+    <div class="containerCenter" >
+        <div class="animatedRoom" style="width:80%;">
+            <video autoplay="autoplay" loop="loop" muted="muted" width=100%;>
+                <source src="imgA/box_view.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+
+
+
+    <div class="containerCenter" style="margin-top:10%;">
+      <h2>Prototyping</h2>
+    </div>
+    <div class="containerCenter">
+        <div  class=" projectContent projectTextInsBorrow" >
+            <br/><br/><br/><b>Input: Spoken Words</b><br/><br/>
+            With Google Speech API and Google Natural Language API, it is able to extract nouns and adpostions like "above","under"
+            and so on from the real time streaming.
+            RecognizeStream, getEntities and analyzeSyntax are used to realize the input part.<br/><br/>
+            For example. "There is a bird flying above the sea", the computer will return "sea", "bird" and "above"
+            in the end.
+        </div>
+    </div>
+    <div class="containerCenter">
+        <img style="width:8%;height:15%; margin-left:3%; margin-top:3%;" src="imgA/speech.gif">
+        <img style="width:50%;height:15%; margin-top:3%; margin-left:8%;" src="imgA/input_flow.png">
+    </div>
+
+
+    <div class="containerCenter">
+        <div  class=" projectContent projectTextInsBorrow" >
+            <br/><br/><br/><b>Realtime Speech Recognition Demo (Please enable audio)</b><br/>
+        </div>
+    </div>
+    <div class="containerCenter">
+      <div  class=" projectContent projectTextInsBorrow" >
+          <div class="breezeVideo" >
+              <video poster="imgA/transcript_poster.png" controls preload="auto" width="50%">
+                  <source src="https://vt.media.tumblr.com/tumblr_pce7apRgAO1qkfs2l_480.mp4" type="video/mp4"></video>
+          </div>
+      </div>
+    </div>
+
+    <div class="containerCenter">
+        <div  class=" projectContent projectTextInsBorrow" >
+            <br/><b>Realtime Speech Recognition Demo in Chinese</b><br/>
+        </div>
+    </div>
+    <div class="containerCenter">
+      <div  class=" projectContent projectTextInsBorrow" >
+          <div class="breezeVideo">
+              <video poster="imgA/poster_chinese.png" controls preload="auto" width="35%">
+                  <source src="https://vt.media.tumblr.com/tumblr_pce8rzsAOE1qkfs2l_480.mp4" type="video/mp4"></video>
+          </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="containerCenter">
+        <div  class=" projectContent projectTextInsBorrow" >
+            <br/><br/><br/><br/><br/><b>Output: Drawings</b><br/><br/>
+            Quick, Draw! is an AI experiment from Google that has delighted
+            millions of people across the world. The game asks users to draw a doodle,
+            then the game’s AI tries to guess what it is.<br/><br/>
+             The richness and the huge amount of data as well as the simplicity
+             of human doodlings, which contains a common understanding of
+             human depicted common objects. It is a visual language of
+             stereotypes of “ ower”, “mountain”, “cloud”, “river” etc. Over a
+             billion doodles have been drawn by people playing the game and
+             subsequently collected into this anonymized dataset.
+        </div>
+    </div>
+    <div class="containerCenter">
+      <img style="width:50%;height:60%; margin-top:3%;" src="imgA/pic_quickdraw.png">
+      <img style="width:80%;height:80%; margin-top:3%;" src="imgA/airplane_overview.png">
+    </div>
+    <div class="containerCenter">
+      <p>different airplanes drawn by different people in Quickdraw</p>
+    </div>
+
+    <div class="containerCenter" >
+        <div class="animatedRoom" style="width:16%;">
+            <video autoplay="autoplay" loop="loop" muted="muted" width=100%;>
+                <source src="imgA/draw_airplane.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <div class="containerCenter">
+      <p>Creating a sense of hand drawn animation</p>
+    </div>
+
+    <div class="containerCenter">
+      <img style="width:60%;height:60%; margin-top:10%; margin-bottom:2%;" src="imgA/drawing_process.png">
+    </div>
+    <div class="containerCenter">
+      <p>Process from free speech to animation</p>
+    </div>
+
+
+    <div class="containerCenter" style="margin-top:10%;">
+      <h2>Demo</h2>
+    </div>
+    <div class="containerCenter">
+        <div  class=" projectContent projectTextInsBorrow" >
+            <br/><br/><br/><b>Talking in English (Please enable audio)</b><br/><br/>
+        </div>
+    </div>
+    <div class="containerCenter" >
+        <div class="animatedRoom" style="width:60%;">
+            <video controls width=100%; style="border:1px solid; margin-top:-6%;">
+                <source src="https://s3.eu-central-1.amazonaws.com/omzug.com/gif/cat_story.mov" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <div class="containerCenter">
+        <div  class=" projectContent projectTextInsBorrow" >
+            <br/><br/><br/><b>Talking in Chinese (Please enable audio)</b><br/><br/>
+        </div>
+    </div>
+    <div class="containerCenter" >
+        <div class="animatedRoom" style="width:60%;">
+            <video controls width=100%; style="border:1px solid; margin-top:-6%;">
+                <source src="https://s3.eu-central-1.amazonaws.com/omzug.com/gif/moon_table_chinese.mov" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <div class="containerCenter">
+        <div  class=" projectContent projectTextInsBorrow" >
+            <br/><br/><br/><b>Visualisation of the created 3D space</b><br/><br/>
+        </div>
+    </div>
+    <div class="centerInk" style="margin-top: 30px;">
+        <iframe  class="vimeoInk" src="https://player.vimeo.com/video/279840418"
+                 width="768" height="432" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+        </iframe>
+    </div>
+
+
+
+    <div class="containerCenter">
+        <div  class=" projectContent projectTextInsBorrow" >
+            <br/><br/><br/><b>User interacting with Scribbling Speech</b><br/><br/>
+        </div>
+    </div>
+    <div class="containerCenter" style="margin-bottom:10%;" >
+        <div class="animatedRoom" style="width:60%;">
+            <video controls width=100%; style="border:1px solid; margin-top:-6%;">
+                <source src="https://s3.eu-central-1.amazonaws.com/omzug.com/gif/user_play_with_it.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- <div class="containerCenter">
+        <div  class=" projectContent projectTextInsBorrow" >
+            <br/><br/><br/><br/><b>Applying Motion</b><br/>
+        </div>
+    </div>
+    <div class="containerCenter" style="margin-top: -2%;">
+        <div class="textLeft" style="margin-right:0%">
+            <p>... is bouncing</p>
+        </div>
+        <img style="width:30%; height:30%;" src="imgA/bouncing.gif">
+    </div>
+    <div class="containerCenter" style="margin-top: -2%;">
+        <div class="textLeft" style="margin-right:0%">
+            <p>... is flying around</p>
+        </div>
+        <img style="width:30%; height:30%;" src="imgA/flying_around.gif">
+    </div>
+    <div class="containerCenter" style="margin-top: -10%;">
+        <div class="textLeft" style="margin-right:0%">
+            <p>... is swimming</p>
+        </div>
+        <img style="width:30%; height:30%;" src="imgA/swimming.gif">
+    </div>
+    <div class="containerCenter" style="margin-top: -7%;">
+        <div class="textLeft" style="margin-right:0%">
+            <p>... is jumping</p>
+        </div>
+        <img style="width:30%; height:30%;" src="imgA/jumping.gif">
+    </div>
+    <div class="containerCenter" style="margin-top: -3%;">
+        <div class="textLeft" style="margin-right:0%">
+            <p>... is walking</p>
+        </div>
+        <img style="width:30%; height:30%;" src="imgA/walking.gif">
+    </div>
+    <div class="containerCenter" style="margin-top: -9%;">
+        <div class="textLeft" style="margin-right:0%">
+            <p>... is running</p>
+        </div>
+        <img style="width:30%; height:30%;" src="imgA/running.gif">
+    </div>
+
+
+
+    <div class="containerCenter">
+        <div  class=" projectContent projectTextInsBorrow" >
+            <br/><br/><br/><br/><b>Arrange Position</b><br/>
+        </div>
+    </div>
+    <div class="containerCenter" style="margin-top:2%;margin-bottom: 0%;">
+      <img style="width:40%; height:40%;" src="imgA/preposition_sheet.png"/>
+    </div>
+
+
+    <div class="containerCenter">
+        <div  class=" projectContent projectTextInsBorrow" >
+            <br/><br/><br/><br/><b>Adding Color</b><br/>
+        </div>
+    </div>
+    <div class="containerCenter" style="margin-top:2%;margin-bottom: 0%;">
+      <img style="width:40%; height:40%;" src="imgA/color.png"/>
+    </div>
+
+
+    <div class="containerCenter">
+        <div  class=" projectContent projectTextInsBorrow" >
+            <br/><br/><br/><br/><b>Changing Size</b><br/>
+        </div>
+    </div>
+    <div class="containerCenter" style="margin-top:2%;margin-bottom: 0%;">
+      <img style="width:40%; height:40%;" src="imgA/size.png"/>
+    </div> -->
+
+
+
+
+
+
+    <!-- <div class="containerCenter">
+        <div  class=" projectContent projectTextInsBorrow" >
+          <br/><b>Inspiration:</b><br/>
+            When I was on my way to meet Prof. Dr. Petruschat to discuss the
+            topic of my bachelor, I was holding a book of an Irish poet William
+            Butler Yeats and randomly browsing the poems on Tram M2. With my
+            limited knowledge of English, I had great pleasure reading some of
+            the poems just because I understood most of those nouns. Trees,
+            clouds, leaves, river, moon and so on. Very quickly in my mind,
+            it emerges an image which consists of these nouns.
+            <br/><br/>
+        </div>
+    </div>
+
+
+    <div class="containerCenter">
+        <img style="width:47%;height:15%; margin-left:5%;" src="imgA/yeats.png">
+        <img style="width:16%;height:15%; padding:5% 5% 0 5%;" src="imgA/poetry.jpg">
+    </div> -->
+
+
+
+
+
+
+
+
+</body>
+</html>

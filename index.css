@@ -9,8 +9,114 @@ body {
     font-weight: 300;
 }
 
+/* !!!!!!!!!!!!!!!!!!!!!test bis hier */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 47px;
+  height: 20px;
+  z-index: 2;
+  /* margin-bottom: 305px; */
+  /* margin-top: -1300px; */
+  margin-top:15px;
+  margin-left: 10px;
+  /* margin-left: 26%; */
+  opacity:0.5;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 3px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #938b47;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #938b47;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 56px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+/* !!!!!!!!!!!!!!!!!!!!!test bis hier */
 
 
+.videoShadow{
+  box-shadow: 0 26px 52px 0 rgba(140,140,140,0.50);
+}
+
+#flower{
+  opacity: 0;
+  animation: secondElementAppear 4s linear infinite;
+  animation-delay: 2s;
+}
+@keyframes secondElementAppear {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+.path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 0;
+  animation: dash 4s linear;
+  stroke:red;
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 1000;
+  }
+  to {
+    stroke-dashoffset: 500;
+  }
+}
 
 #navigation {
     display:flex;
@@ -216,6 +322,10 @@ a:active {
     /*border-color: grey;*/
     /*margin-left: 65px;*/
 }
+.speechBlock{
+  width:100%;
+  height:100%;
+}
 #leapMotion{
     width:100%;
     /*width:378px;*/
@@ -239,6 +349,9 @@ a:active {
 }
 #breezeThumb{
     width:100%;
+}
+#speechThumb{
+  width:100%;
 }
 #magThumb{
     width:100%;
@@ -406,6 +519,17 @@ a:active {
     color:black;
 }
 #breezeButton:hover{
+    color:black;
+    background-color: white;
+    opacity:1;
+}
+#speechButton:link{
+    color:black;
+}
+#speechButton:visited{
+    color:black;
+}
+#speechButton:hover{
     color:black;
     background-color: white;
     opacity:1;
@@ -977,6 +1101,9 @@ a:active {
         padding:0 10px;
     }
     #breezeButton:link{
+        padding:0 10px;
+    }
+    #speechButton:link{
         padding:0 10px;
     }
     #leapMotion{
