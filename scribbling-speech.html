@@ -54,7 +54,7 @@
         </div>
     </div>
     <div class="containerCenter">
-        <img style="width:25%;height:15%; margin-top:3%;" src="imgA/concept_sketch.jpg">
+        <img id="conceptSketch" src="imgA/concept_sketch.jpg">
     </div>
 
 
@@ -67,14 +67,14 @@
         </div>
     </div>
     <div class="containerCenter" >
-        <div class="animatedRoom" style="width:50%;">
+        <div class="videos_scribbling_speech">
             <video autoplay="autoplay" loop="loop" muted="muted" width=100%; style="border:1px solid;">
                 <source src="imgA/forward_view.mp4" type="video/mp4">
             </video>
         </div>
     </div>
     <div class="containerCenter" >
-        <div class="animatedRoom" style="width:50%;">
+        <div class="videos_scribbling_speech">
             <video autoplay="autoplay" loop="loop" muted="muted" width=100%; style="border:1px solid;">
                 <source src="imgA/left_right_view.mp4" type="video/mp4">
             </video>
@@ -91,7 +91,7 @@
         </div>
     </div>
     <div class="containerCenter" >
-        <div class="animatedRoom" style="width:80%;">
+        <div class="videos_scribbling_speech">
             <video autoplay="autoplay" loop="loop" muted="muted" width=100%;>
                 <source src="imgA/box_view.mp4" type="video/mp4">
             </video>
@@ -102,21 +102,21 @@
 
 
     <div class="containerCenter" style="margin-top:10%;">
-      <h2>Prototyping</h2>
+      <h2>Input - Spoken Words</h2>
     </div>
     <div class="containerCenter">
         <div  class=" projectContent projectTextInsBorrow" >
-            <br/><br/><br/><b>Input: Spoken Words</b><br/><br/>
+            <br/><br/><br/><b>Real time Voice Recognition and Multi language Detection</b><br/><br/>
             With Google Speech API and Google Natural Language API, it is able to extract nouns and adpostions like "above","under"
             and so on from the real time streaming.
             RecognizeStream, getEntities and analyzeSyntax are used to realize the input part.<br/><br/>
             For example. "There is a bird flying above the sea", the computer will return "sea", "bird" and "above"
-            in the end.
+            in the end.<br/><br/>
+            Besides, not only English can be recognized, but also many other languages like Chinese, French, German and so on.
         </div>
     </div>
     <div class="containerCenter">
-        <img style="width:8%;height:15%; margin-left:3%; margin-top:3%;" src="imgA/speech.gif">
-        <img style="width:50%;height:15%; margin-top:3%; margin-left:8%;" src="imgA/input_flow.png">
+        <img class="image_scribbling_speech" src="imgA/input_flow.png">
     </div>
 
 
@@ -127,8 +127,8 @@
     </div>
     <div class="containerCenter">
       <div  class=" projectContent projectTextInsBorrow" >
-          <div class="breezeVideo" >
-              <video poster="imgA/transcript_poster.png" controls preload="auto" width="50%">
+          <div >
+              <video class="terminal_demo"  poster="imgA/transcript_poster.png" controls preload="auto">
                   <source src="https://vt.media.tumblr.com/tumblr_pce7apRgAO1qkfs2l_480.mp4" type="video/mp4"></video>
           </div>
       </div>
@@ -141,8 +141,8 @@
     </div>
     <div class="containerCenter">
       <div  class=" projectContent projectTextInsBorrow" >
-          <div class="breezeVideo">
-              <video poster="imgA/poster_chinese.png" controls preload="auto" width="35%">
+          <div>
+              <video class="terminal_demo" poster="imgA/poster_chinese.png" controls preload="auto">
                   <source src="https://vt.media.tumblr.com/tumblr_pce8rzsAOE1qkfs2l_480.mp4" type="video/mp4"></video>
           </div>
       </div>
@@ -150,10 +150,12 @@
 
 
 
-
+    <div class="containerCenter" style="margin-top:10%;">
+      <h2>Output - Animated Drawings</h2>
+    </div>
     <div class="containerCenter">
         <div  class=" projectContent projectTextInsBorrow" >
-            <br/><br/><br/><br/><br/><b>Output: Drawings</b><br/><br/>
+            <br/><br/><b>Quickdraw Dataset</b><br/><br/>
             Quick, Draw! is an AI experiment from Google that has delighted
             millions of people across the world. The game asks users to draw a doodle,
             then the game’s AI tries to guess what it is.<br/><br/>
@@ -166,29 +168,29 @@
         </div>
     </div>
     <div class="containerCenter">
-      <img style="width:50%;height:60%; margin-top:3%;" src="imgA/pic_quickdraw.png">
-      <img style="width:80%;height:80%; margin-top:3%;" src="imgA/airplane_overview.png">
+      <img id="pic_quickdraw"  src="imgA/pic_quickdraw.png">
+      <img id="airplane_overview" src="imgA/airplane_overview.png">
     </div>
     <div class="containerCenter">
-      <p>different airplanes drawn by different people in Quickdraw</p>
+      <p class="picture_note" >different airplanes drawn by different people in Quickdraw</p>
     </div>
 
     <div class="containerCenter" >
-        <div class="animatedRoom" style="width:16%;">
+        <div class="videos_scribbling_speech" id="draw_airplane">
             <video autoplay="autoplay" loop="loop" muted="muted" width=100%;>
                 <source src="imgA/draw_airplane.mp4" type="video/mp4">
             </video>
         </div>
     </div>
     <div class="containerCenter">
-      <p>Creating a sense of hand drawn animation</p>
+      <p class="picture_note">Creating a sense of hand drawn animation</p>
     </div>
 
     <div class="containerCenter">
-      <img style="width:60%;height:60%; margin-top:10%; margin-bottom:2%;" src="imgA/drawing_process.png">
+      <img class="image_scribbling_speech" src="imgA/drawing_process.png">
     </div>
     <div class="containerCenter">
-      <p>Process from free speech to animation</p>
+      <p class="picture_note">Process from free speech to animation</p>
     </div>
 
 
@@ -201,8 +203,8 @@
         </div>
     </div>
     <div class="containerCenter" >
-        <div class="animatedRoom" style="width:60%;">
-            <video controls width=100%; style="border:1px solid; margin-top:-6%;">
+        <div class="videos_scribbling_speech" >
+            <video poster="imgA/poster_cat_story.png" controls width=100%; style="border:1px solid; margin-top:-6%;">
                 <source src="https://s3.eu-central-1.amazonaws.com/omzug.com/gif/cat_story.mov" type="video/mp4">
             </video>
         </div>
@@ -214,23 +216,14 @@
         </div>
     </div>
     <div class="containerCenter" >
-        <div class="animatedRoom" style="width:60%;">
-            <video controls width=100%; style="border:1px solid; margin-top:-6%;">
+        <div class="videos_scribbling_speech" >
+            <video  poster="imgA/poster_chinese_video.png" controls width=100%; style="border:1px solid; margin-top:-6%;">
                 <source src="https://s3.eu-central-1.amazonaws.com/omzug.com/gif/moon_table_chinese.mov" type="video/mp4">
             </video>
         </div>
     </div>
 
-    <div class="containerCenter">
-        <div  class=" projectContent projectTextInsBorrow" >
-            <br/><br/><br/><b>Visualisation of the created 3D space</b><br/><br/>
-        </div>
-    </div>
-    <div class="centerInk" style="margin-top: 30px;">
-        <iframe  class="vimeoInk" src="https://player.vimeo.com/video/279840418"
-                 width="768" height="432" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
-        </iframe>
-    </div>
+
 
 
 
@@ -239,13 +232,34 @@
             <br/><br/><br/><b>User interacting with Scribbling Speech</b><br/><br/>
         </div>
     </div>
-    <div class="containerCenter" style="margin-bottom:10%;" >
-        <div class="animatedRoom" style="width:60%;">
+    <div class="containerCenter"  >
+        <div class="videos_scribbling_speech">
             <video controls width=100%; style="border:1px solid; margin-top:-6%;">
                 <source src="https://s3.eu-central-1.amazonaws.com/omzug.com/gif/user_play_with_it.mp4" type="video/mp4">
             </video>
         </div>
     </div>
+
+
+
+
+    <div class="containerCenter">
+        <div  class=" projectContent projectTextInsBorrow" >
+            <br/><br/><br/><b>Visualisation of the created 3D space</b><br/><br/>
+        </div>
+    </div>
+    <div class="containerCenter"  >
+        <div class="videos_scribbling_speech" style="margin-bottom:10%;" >
+            <video poster="imgA/poster_visualisation_video.png" controls width=100%; style="border:1px solid; margin-top:-6%;">
+                <source src="https://s3.eu-central-1.amazonaws.com/omzug.com/gif/talk_to_me_no_text.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <!-- <div class="centerInk" style="margin-top: 30px; margin-bottom:6%;">
+        <iframe  class="visualisation_video" class="vimeoInk" src="https://player.vimeo.com/video/279840418"
+                   webkitallowfullscreen mozallowfullscreen allowfullscreen>
+        </iframe>
+    </div> -->
 
 
 

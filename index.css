@@ -26,6 +26,55 @@ body {
 
 .switch input {display:none;}
 
+#pic_quickdraw{
+  width:50%;
+  height:60%;
+  margin-top:3%;
+}
+
+#airplane_overview{
+  width:80%;
+  height:80%;
+  margin-top:3%;
+}
+
+#draw_airplane{
+  width:20%;
+}
+
+.videos_scribbling_speech{
+  margin-top: 5%;
+  width:60%;
+}
+.image_scribbling_speech{
+  width:60%;
+  height:60%;
+  margin-top:10%;
+  margin-bottom:2%;
+}
+
+.visualisation_video{
+  width:768px;
+  height:432px;
+  border:1px solid;
+}
+
+#conceptSketch{
+  width:25%;
+  height:15%;
+  margin-top:3%;
+}
+
+.terminal_demo{
+  width:55%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.picture_note{
+
+}
+
 .slider {
   position: absolute;
   cursor: pointer;
@@ -1261,6 +1310,52 @@ a:active {
     #water{
         margin-top: 203px;
         margin-bottom: -51px;
+    }
+
+    #pic_quickdraw{
+      width:80%;
+      margin-top: 5%;
+
+    }
+
+    #airplane_overview{
+      width:95%;
+      margin-top: 10%;
+      margin-bottom: 3%;
+    }
+
+    .videos_scribbling_speech{
+      width:90%;
+    }
+
+    .picture_note{
+      width:80%;
+      font-size: 10px;
+    }
+    .image_scribbling_speech{
+      width:95%;
+    }
+
+    #draw_airplane{
+      width:80%;
+    }
+
+    .visualisation_video{
+      width:960px;
+      height:540px;
+      border: 0;
+      margin:0 3% 3% 3%;
+    }
+
+    #conceptSketch{
+      width:60%;
+      margin-bottom: -15%;
+      margin-top: 5%;
+    }
+    .terminal_demo{
+      width:100%;
+      margin-top: 5%;
+      margin-bottom: 7%;
     }
     .userTest{
         width:90%;
