@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta  name="viewport" charset="UTF-8" content="width=device-width, initial-scale=1">
+    <title>Jie</title>
+    <!--<script type="text/javascript" src="hideContent.js"></script>-->
+    <link href="https://fonts.googleapis.com/css?family=Abel|Signika+Negative:300" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="imgA/favicon.png"/>
+    <link href="./index.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        <div onclick="goBack()"><img  class="backButton" src="imgA/backButton.png"></div>
+        <script>
+            function goBack() {
+                window.history.back();
+            }
+        </script>
+    </div>
+
+    <div class="containerCenter">
+        <img class="insBorrow" src="imgA/insBorrow.jpg" style="width:100%; height:100%;">
+    </div>
+    <div class="containerCenter">
+        <div class="insBorrowTitle">
+            Coffee Composer
+        </div>
+    </div>
+    <div class=" containerCenter">
+
+        <div class=" projectContent projectTextInsBorrow" >
+            Supervised by Prof. Carola Zwick<br/>
+            Master Semester 1<br/><br/>
+            Tools: <br/>
+                3D printing, laser cutting, arduino, LED strips, stepper motor, NFC sticker, RFID reader<br/>
+                <br/>
+            <b>Teamwork:</b><br/> Xinyue Yang, Antonia Nandori<br/><br/>
+            <b>Idea:</b><br/>
+            To organize and get impromptu help discreetly within your neighborhood.<br/><br/>
+            <b>Motivation</b><br/>
+            I had the embarrassing problem to ask somebody for sanitary napkins when my period came,
+            because I didn‘t have them with me. So I was thinking, how could I get help from my
+            direct surroundings as quickly as possible and at the same time discreetly?<br/>
+        </div>
+        <div class="containerCenter ideation">
+            <img class="storyImage" src="imgA/situationBorrow.jpg">
+            <!--<img class="storyImage" src="imgA/situationBorrow.jpg">-->
+        </div>
+        <div class="ideation">
+            <img class="storyImage" src="imgA/needHelp.jpg">
+
+        </div>
+        <!--<div class="containerCenter">-->
+            <!--<img class="paperCut" src="imgA/papercut.png">-->
+        <!--</div>-->
+        <div class="insBorrowTitle paperPrototype containerCenter" >
+            Paper Prototype
+        </div>
+        <div class="containerCenter" style="margin-bottom:60px; ">
+            <div class="containerColumn">
+                <div class="projectTextInsBorrow containerCenter" style=" width:100%;">
+                    <h3>The one who needs help</h3>
+                </div>
+                <div class="containerCenter">
+                    <img class="paperFlow" src="imgA/jimmy.gif">
+                </div>
+            </div>
+            <div class="containerColumn">
+                <div class="projectTextInsBorrow containerCenter" style="width:100%;">
+                   <h3> The one who offers help</h3>
+                </div>
+                <div class="containerCenter">
+                    <img  class="paperFlow" src="imgA/david.gif">
+                </div>
+            </div>
+
+            <!--<div class="projectTextInsBorrow"  style="margin-top: 30px">-->
+
+                <!--<h3>To Ask For Help</h3>-->
+                <!--To send a request, an asker will<br/>-->
+                <!--1. post what his/her need <br/>-->
+                <!--2. choose a searching diameter <br/>-->
+                <!--3. take a photo of a visual cue to be recognized by the helper.-->
+            <!--</div>-->
+            <!--<div class="projectTextInsBorrow">-->
+                <!--<h3>To Offer Help</h3>-->
+                <!--To help the asker, a helper will<br/>-->
+                <!--1. accept the request <br/>-->
+                <!--2. pin his/her location <br/>-->
+                <!--3. take a photo of a visual cue to be recognized by the asker.<br/>-->
+                <!--Then he/she will receive the visual cue of the asker-->
+            <!--</div>-->
+
+        </div>
+        <div class="containerCenter">
+            <div class="projectTextInsBorrow projectContent">
+                <h3>App Flow</h3>
+            </div>
+            <div class="containerCenter">
+                <img class="appFlow" src="imgA/appFlow.png">
+            </div>
+        </div>
+        <!--<div class="containerCenter ideation">-->
+            <!--<img class="storyImage" src="imgA/situationBorrow.jpg">-->
+            <!--&lt;!&ndash;<img class="storyImage" src="imgA/situationBorrow.jpg">&ndash;&gt;-->
+        <!--</div>-->
+        <div class="projectTextInsBorrow projectContent description" >
+            The app has no customer account, it protects users' privacy and make everything happen only in the moment.
+            The location and photo datas will disappear automatically after the action ended.
+            The app has no customer account, it protects users' privacy and make everything happen only in the moment.
+            The location and photo datas will disappear automatically after the action ended.<br>
+        </div>
+    </div>
+    <div class="containerCenter">
+        <img class="appGif" src="imgA/asker_request.gif">
+        <div class="textRight">
+            <!--<img class="face" src="imgA/face.png">-->
+            <h3>Ask for help</h3>
+            To send a request, an asker will<br/>
+            1. post what his/her need <br/>
+            2. choose a searching diameter <br/>
+            3. take a photo of a visual cue to be recognized by the helper.
+        </div>
+    </div>
+    <div class="containerCenter" style="margin-top: 50px">
+        <div class="textLeft">
+            <h3>Offer help</h3>
+            To help the asker, a helper will<br/>
+            1. accept the request <br/>
+            2. pin his/her location <br/>
+            3. take a photo of a visual cue to be recognized by the asker.
+            Then he/she will receive the visual cue of the asker.
+        </div>
+        <img class="appGif" src="imgA/helper_confirm.gif">
+    </div>
+    <div class="containerCenter" style="margin-top: 50px">
+        <img class="appGif" src="imgA/asker_navigation.gif">
+        <div class="textRight">
+            <h3>Meet helper</h3>
+            The asker receives the  visual cue of the helper, and is navigated to meet him/her.
+        </div>
+    </div>
+    <div class="containerCenter">
+        <div class="projectContent projectTextInsBorrow description">
+            <h3>Use Case</h3>
+            It is Sunday Juli in Berlin, Lisa is sick at home and needs aspirin,
+            but she doesn‘t have it. She wants to ask for help with Jie. She sents a request for aspirin,
+            and she will go with a rose in her hand as her meeting signal.<br/>
+            David is working in the office closing to Lisa‘s house. He received a push notification which says ‚
+            a lovely neighbor in 150m needs aspirin‘, he does have aspirin with him and confirmed to help.
+            He takes a photo of his sneakers to help the asker recognize him. In 10 min he sees a girl with a rose and
+            gives her his aspirin. Lisa thanks him and walks back home.
+
+        </div>
+    </div>
+    <div class="centerInk" style="margin-top: 30px">
+        <iframe  class="vimeoInk" src="https://player.vimeo.com/video/174794803"
+                 width="960" height="540" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+        </iframe>
+    </div>
+    <div class="containerCenter">
+        <div class="insBorrowTitle omzugTitle">
+            What I Learned
+        </div>
+    </div>
+    <div class="containerCenter whatILearned">
+        <div  class=" projectTextInsBorrow projectContent" >
+            Through this project I had the basic understand of how an app was built. I attended a workshop building a prototype
+            with sketch and invision. But in the semester project I decided to try Ionic Framework, which is a tool for building
+            mobile apps with html css and angular Js. Because I can write Html and css, so it's a pretty good tool for me,
+            I think I already have the ability to build a static app by myself.<br/><br/>
+            What's more, motion design is more and more popular, in this project I wrote several CSS animations, like the rotating
+            request to convey an urgen feeling that someone needs help, or an appearing heart to thank the helper for offering help.
+            And a graphic demonstration of showing the location of the users who are around you in the moment. The motions in my app
+            are not just for fun, but for their semantic meanings.
+        </div>
+    </div>
+
+
+
+
+
+</body>
+</html>
