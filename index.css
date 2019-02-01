@@ -397,6 +397,11 @@ a:active {
     /*height:290px;*/
     width:100%;
 }
+#composerThumb{
+    /*width:378px;*/
+    /*height:290px;*/
+    width:100%;
+}
 #breezeThumb{
     width:100%;
 }
@@ -602,6 +607,17 @@ a:active {
     color:black;
 }
 #webButton:hover{
+    color:black;
+    background-color: white;
+    opacity:1;
+}
+#composerButton:link{
+    color:black;
+}
+#composerButton:visited{
+    color:black;
+}
+#composerButton:hover{
     color:black;
     background-color: white;
     opacity:1;
@@ -1150,6 +1166,9 @@ a:active {
     #webButton:link{
         padding:0 10px;
     }
+    #composerButton:link{
+        padding:0 10px;
+    }
     #breezeButton:link{
         padding:0 10px;
     }
@@ -1169,6 +1188,10 @@ a:active {
         height:100%;
     }
     #omzugThumb{
+        width:100%;
+        height:100%;
+    }
+    #composerThumb{
         width:100%;
         height:100%;
     }
