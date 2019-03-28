@@ -380,6 +380,7 @@ a:active {
     width:100%;
     /*width:378px;*/
     /*height:290px;*/
+    height:auto;
 
 }
 #jieThumb{
@@ -412,6 +413,7 @@ a:active {
 }
 #speechThumb{
   width:100%;
+  height:auto;
 }
 #magThumb{
     width:100%;
