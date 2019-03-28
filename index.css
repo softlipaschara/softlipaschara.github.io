@@ -386,30 +386,36 @@ a:active {
     /*width:378px;*/
     /*height:290px;*/
     width:100%;
+    height:auto;
 }
 #omzugThumb{
     /*width:378px;*/
     /*height:290px;*/
     width:100%;
+    height:auto;
 }
 #webThumb{
     /*width:378px;*/
     /*height:290px;*/
     width:100%;
+    height:auto;
 }
 #composerThumb{
     /*width:378px;*/
     /*height:290px;*/
     width:100%;
+    height:auto;
 }
 #breezeThumb{
     width:100%;
+    height:auto;
 }
 #speechThumb{
   width:100%;
 }
 #magThumb{
     width:100%;
+    height:auto;
 }
 .smallTitle{
     letter-spacing: 0.06em;
