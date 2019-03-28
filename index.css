@@ -35,7 +35,7 @@ body {
   text-align: center;
 }
 .tokenColumn{
-  width:10%;
+  width:8.5%;
   margin:2% 2%;
 }
 .composerImage{
@@ -90,7 +90,9 @@ body {
 }
 
 .picture_note{
-
+text-align: center;
+letter-spacing: .05em;
+line-height: 155%;
 }
 
 .slider {
@@ -675,7 +677,7 @@ a:active {
     /*margin-left: 100px;*/
 }
 .projectText{
-    letter-spacing: .06em;
+    letter-spacing: .05em;
     line-height: 120%;
     width:100%;
 }
@@ -743,7 +745,7 @@ a:active {
 }
 .projectTextInsBorrow{
     line-height: 155%;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.05em;
     margin-bottom: 0;
     font-size: 16px;
     width:60%;
