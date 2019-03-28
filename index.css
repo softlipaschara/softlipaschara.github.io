@@ -25,7 +25,24 @@ body {
 }
 
 .switch input {display:none;}
-
+.tokens{
+  margin:2% 1.5% 20px 1.5%;
+  width:100%;
+  height:auto;
+  text-align: center;
+}
+.tokenText{
+  text-align: center;
+}
+.tokenColumn{
+  width:10%;
+  margin:2% 2%;
+}
+.composerImage{
+  width:60%;
+  height:100%;
+  margin-top: 3%;
+}
 #pic_quickdraw{
   width:50%;
   height:60%;
@@ -1185,23 +1202,23 @@ a:active {
     }
     #leapMotion{
         width:100%;
-        height:100%;
+        height:auto%;
     }
     #jieThumb{
         width:100%;
-        height:100%;
+        height:auto;
     }
     #breezeThumb{
         width:100%;
-        height:100%;
+        height:auto;
     }
     #omzugThumb{
         width:100%;
-        height:100%;
+        height:auto;
     }
     #composerThumb{
         width:100%;
-        height:100%;
+        height:auto;
     }
     .containerColumnInkText{
         width:100%;
@@ -1331,6 +1348,21 @@ a:active {
     /*#bottom{*/
         /*margin-top: -300px;*/
     /*}*/
+
+    .composerImage{
+      width:90%;
+      height:100%;;
+    }
+
+    .tokenText{
+      text-align: center;
+      font-size: 9pt;
+    }
+    .tokenColumn{
+      margin:2% 3%;
+      width:12%;
+    }
+
     .bucket{
         width:90%;
         margin-top: 30px;
