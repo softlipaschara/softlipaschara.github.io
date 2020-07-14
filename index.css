@@ -426,6 +426,12 @@ a:active {
     width:100%;
     height:auto;
 }
+#wordThumb{
+    /*width:378px;*/
+    /*height:290px;*/
+    width:100%;
+    height:auto;
+}
 #breezeThumb{
     width:100%;
     height:auto;
@@ -645,6 +651,18 @@ a:active {
     color:black;
 }
 #composerButton:hover{
+    color:black;
+    background-color: white;
+    opacity:1;
+}
+
+#wordButton:link{
+    color:black;
+}
+#wordButton:visited{
+    color:black;
+}
+#wordButton:hover{
     color:black;
     background-color: white;
     opacity:1;
@@ -953,6 +971,12 @@ a:active {
     height:100%;
     margin-top: 60px;
     padding:0 30px;
+}
+.twoVideos{
+  width:45%;
+  height:100%;
+  /* padding:10px; */
+  margin: 3% 1%;
 }
 .assembleTitleText{
     line-height: 134%;
@@ -1399,7 +1423,7 @@ a:active {
     }
 
     .picture_note{
-      width:80%;
+      /* width:80%; */
       font-size: 10px;
     }
     .image_scribbling_speech{
@@ -1544,6 +1568,10 @@ a:active {
         margin-top: 70px;
         padding: 50px 0px;
     }
+    .twoVideos{
+      width:90%;
+      height:100%;
+    }
     .breezeVideo{
         margin-top: 10px;
     }
@@ -1649,6 +1677,9 @@ a:active {
     .oneOfTwo{
         padding: 40px 0px;
     }
+    .twoVideos{
+
+    }
     .bucket{
         margin-top: 48px;
 
@@ -1683,6 +1714,9 @@ a:active {
     }
     .oneOfTwo{
         padding: 30px 0px;
+    }
+    .twoVideos{
+
     }
     .omzugLink{
         margin-bottom: 6%;
