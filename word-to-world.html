@@ -19,12 +19,16 @@
       }
     </script>
   </div>
-  <div class="armbandGif" style="z-index: 1">
+  <!-- <div class="armbandGif" style="z-index: 1">
     <div id="video">
       <video style="margin-top:9%;" autoplay="autoplay" loop="loop" muted="muted" playsinline width="100%">
                 <source src="imgA/screen_word_to_world_.mp4" type="video/mp4"></video>
     </div>
+  </div> -->
+  <div class="containerCenter">
+    <img class="insBorrow" src="imgA/word_to_world_titel_.gif" style="width:100%; height:100%;">
   </div>
+
   <div class="containerCenter">
     <div class="insBorrowTitle">
       Word to World
@@ -37,7 +41,7 @@
       <br/>
       <b>Idea:</b><br/> “Word to World” is a further development of my bachelor thesis “Scribbling Speech”. It is a software that transforms real-time speech into dynamic visualisation. I used Unity game engine to process the data passing from the language
       input, the computer outputs a corresponding three-dimensional visual world where camera movements, physics, forces, collisions, animations, and motions are working together. We are proficient at intuition, language, imagination, and creativity,
-      while the computer is proficient at computation, algorithm, logic, and memory, "Word to World" created a mix of intuition and logic.<br/><br/><br/><br/>
+      while the computer is proficient at computation, algorithm, logic, and memory, "Word to World" created a mix of intuition and logic. It encourages creation with technology.<br/><br/><br/><br/>
     </div>
 
   </div>
@@ -48,7 +52,7 @@
   </div>
   <div class="containerCenter">
     <div class=" projectContent projectTextInsBorrow">
-      <br/><br/> Assets are what we have in our world: natural environments, animals, people, objects, transportation and even places, landmarks and so on.
+      <br/><br/> Visualizing human's "free speech" is a complex task, so I deconstructed the project into following elements:
     </div>
   </div>
   <div class="containerCenter">
@@ -60,7 +64,7 @@
         <h2>Bringing Objects onto the Canvas</h2>
         <div  class=" projectContent projectTextInsBorrow " >
             <br/><br/>Assets are what we have in our world: natural environments, animals, people, objects,
-            transportation and even places, landmarks and so on.
+            transportation and even places, landmarks and so on. The computer will find the corresponding asset according to the detected "nouns".
         </div>
     </div>
 
@@ -95,7 +99,8 @@
   <div class="containerCenter">
     <div class=" projectContent projectTextInsBorrow">
       <br/>
-      <h3>&#8226; Animal Animations:</h3> Assets are what we have in our world: natural environments, animals, people, objects, transportation and even places, landmarks and so on.
+      <h3>&#8226; Animal Animations:</h3> Each animal has its own specific animations built by animators, by detecting "verbs", an animation will be triggered and transit from the previous state.
+      The default initial state is "idle".
     </div>
   </div>
   <div class="containerCenter " style="margin-bottom:-2%; margin-top:2%;">
@@ -112,29 +117,6 @@
       <p class="picture_note" style="color: #a5a5a5">"The elephant is <span style="color: grey;">drinking</span> water by the pond."</p>
     </div>
   </div>
-  <!-- <div class="containerCenter" >
-        <div class="videos_scribbling_speech" id="box_view">
-            <video autoplay="autoplay" loop="loop" muted="muted" width=100%; style="box-shadow: 0px -1px 52px -16px rgba(51,51,51,1);" >
-                <source src="imgA/animation_transition.mp4" type="video/mp4">
-            </video>
-        </div>
-    </div>
-
-    <div class="containerCenter">
-      <p class="picture_note" style="color: #a5a5a5" >transit from the default <span style="color: grey;">"idle"</span>
-         state to <span style="color: grey;">"walk"</span> state</p>
-    </div>
-
-    <div class="containerCenter" >
-        <div class="videos_scribbling_speech">
-            <video autoplay="autoplay" loop="loop" muted="muted" width=100%; style="border:1px solid;">
-                <source src="imgA/elephant_drink.mp4" type="video/mp4">
-            </video>
-        </div>
-    </div>
-    <div class="containerCenter">
-      <p class="picture_note" style="color: #a5a5a5" >"The elephant is <span style="color: grey;">drinking</span> water by the pond"</p>
-    </div> -->
 
 
 
@@ -142,22 +124,13 @@
     <div class=" projectContent projectTextInsBorrow">
       <br/>
       <h3>&#8226; Humanoid Animations:</h3>
-      <!-- Assets are what we have in our world: natural environments, animals, people, objects,
-            transportation and even places, landmarks and so on. -->
+
     </div>
   </div>
-  <!-- <div class="containerCenter" >
-        <div class="videos_scribbling_speech" id="box_view">
-            <video autoplay="autoplay" loop="loop" muted="muted" width=100%; style="box-shadow: 0px -1px 52px -16px rgba(51,51,51,1);>
-                <source " src="imgA/humanoid_animation.mp4" type="video/mp4">
-            </video>
-        </div>
-    </div> -->
+
 
   <div class="containerCenter">
     <div class=" projectContent projectTextInsBorrow" style="margin-bottom: -1%;">
-      <!-- <br/><br/><br/><h4>Motion Capture:</h4> -->
-
       I applied motion datas (fbx format) from CMUMocap database to a man character which is rigged and have humanoid rigs. Below are the screenshots of the man doing different motion, as a result of visualizing verbs.
     </div>
   </div>
@@ -180,8 +153,8 @@
   <div class="containerCenter">
     <div class=" projectContent projectTextInsBorrow" style="margin-bottom: 1%;">
       <br/><br/>
-      <h3>&#8226; Anthropomorphic Animations:</h3> Assets are what we have in our world: natural environments, animals, people, objects, transportation and even places, landmarks and so on. Assets are what we have in our world: natural environments, animals, people, objects, transportation and
-      even places, landmarks and so on.
+      <h3>&#8226; Anthropomorphic Animations:</h3> Bringing anthropomorphism in character animation could stimulate our imagination through storytelling, you can tell a story of a bear dancing and doing boxing!
+      Following are examples of a bear doing different motions after we give it a humanoid rig.
     </div>
   </div>
   <!-- <div class="containerCenter" >
@@ -242,11 +215,11 @@
 
   <div class="containerCenter">
     <div class=" projectContent projectTextInsBorrow">
-      <br/><br/> Inanimate objects such as tables, chairs, boxes, stones and so on, they are lifeless in the real world, but in a world of fantasy, everything can be living!
+      <br/><br/> I used a mesh deformer tool written by Keenan Woodall, it has various methods like "bend", "sine", "skew", "inflate" and so on, to change and animate the form of the models.
     </div>
   </div>
 
-  <!-- <div class="containerCenter" >
+  <div class="containerCenter" >
         <div class="videos_scribbling_speech" id="box_view" style="margin-top:2%;">
             <video autoplay="autoplay" loop="loop" muted="muted" width=100%; >
                 <source src="imgA/meshDeformerTool.mp4" type="video/mp4">
@@ -255,11 +228,11 @@
     </div>
     <div class="containerCenter">
       <p class="picture_note" style="color: #a5a5a5" >a mesh deformer tool written by Keenan Woodall</p>
-    </div> -->
+    </div>
 
   <div class="containerCenter">
     <div class=" projectContent projectTextInsBorrow">
-      <br/><br/> Inanimate objects such as tables, chairs, boxes, stones and so on, they are lifeless in the real world, but in a world of fantasy, everything can be living!<br/><br/>
+      <br/><br/> I started with the most basic geometry, a cube, by combining different deforming methods, I found the behaviors of the cube can already express some emotions and meanings.<br/><br/>
     </div>
   </div>
   <div class="containerCenter">
@@ -272,8 +245,7 @@
     <div class="containerCenter ">
         <div  class=" projectContent projectTextInsBorrow " >
             <br/><br/>
-            Inanimate objects such as tables, chairs, boxes, stones and so on, they are
-            lifeless in the real world, but in a world of fantasy, everything can be living!<br/><br/>
+            Then I moved on with the same methods to a "table" model, we could see the table comes to alive.<br/><br/>
         </div>
     </div>
     <div class="containerCenter ">
@@ -302,8 +274,8 @@
   <div class="containerCenter" style="margin-top:3%;">
 
     <div class=" projectContent projectTextInsBorrow">
-      <h3>&#8226; Linear and Random Movement Paths:</h3> Assets are what we have in our world: natural environments, animals, people, objects, transportation and even places, landmarks and so on.Assets are what we have in our world: natural environments, animals, people, objects, transportation and even
-      places, landmarks and so on.
+      <h3>&#8226; Linear and Random Movement Paths:</h3> We have groups of verbs that will trigger object's linear movement, like "rise", "sink", "rotates", "dive", "go towards", etc.
+      And we will give the objects a random path by decting verbs like "fly", "play around", etc.
     </div>
   </div>
 
@@ -362,22 +334,10 @@
   <div class="containerCenter">
     <div class=" projectContent projectTextInsBorrow">
       <br/>
-      <h3>&#8226; Real-time Navigating:</h3><br/> Some verbs like “arrive”, “avoid”, “flee”, “follow”, “hide”, “pursuit”, “seek”, they all require the objects intelligently deploy its path.
+      <h3>&#8226; Real-time Navigating:</h3><br/> If you say "The girl walks in her room", the computer will calculate the walkable area of the "room" in real-time, this ensures that the girl won't walk into tables and shelves.
     </div>
   </div>
-  <!-- <div class="containerCenter">
-        <img class="videos_scribbling_speech" style="margin-top:1%;" src="imgA/navigation_pic.png">
-    </div>
-    <div class="containerCenter" >
-        <div class="videos_scribbling_speech">
-            <video autoplay="autoplay" loop="loop" muted="muted" width=100%; style="border:1px solid;">
-                <source src="imgA/girl_garden.mp4" type="video/mp4">
-            </video>
-        </div>
-    </div>
-    <div class="containerCenter">
-      <p class="picture_note" style="color: #a5a5a5" >"The girl is <span style="color: grey;">wandering</span> in the garden."</p>
-    </div> -->
+
 
   <div class="containerCenter ">
     <div class="containerColumn twoVideos">
@@ -403,7 +363,7 @@
 
     <div class=" projectContent projectTextInsBorrow">
 
-      Assets are what we have in our world: natural environments, animals, people, objects, Assets are what we have in our world: natural environments, animals, people, objects, Assets are what we have in our world: natural environments, animals, people, objects,
+      Simulations could help us visualize a world that we are familiar with: we use gravity simulations to visualize for example, "An apple falls from the tree."; we use fluid simulations to visualize how a chair moves and floats in the water.
 
     </div>
   </div>
@@ -458,6 +418,7 @@
     <div class=" projectContent projectTextInsBorrow">
       <br/>
       <h3>&#8226; Using Shadow to Visualize Time:</h3> In “Word to World”, we use the shadow to represent the sun and the time. At different times of the day, our shadow gets longer and shorter or may disappear. We can tell the time based on your shadow’s current length and angle.
+      With this method, you are free to say "Now it's 7am in the morning."
     </div>
   </div>
 
@@ -557,17 +518,7 @@
       on “screens”, a children’s animation clip, a weather report video clip, a news report video clip.
     </div>
   </div>
-  <!-- <div class="containerCenter">
-    <img class="videos_scribbling_speech" style="margin-top:5%; opacity:.8;" src="imgA/screenText.png">
-  </div> -->
 
-  <!-- <div class="containerCenter" >
-        <div class="videos_scribbling_speech">
-            <video autoplay="autoplay" loop="loop" muted="muted" width=100%; style="border:1px solid;">
-                <source src="imgA/foxWatchTV.mp4" type="video/mp4">
-            </video>
-        </div>
-    </div> -->
     <div class="containerCenter">
       <img class="image_scribbling_speech" style="margin-top:5%;" " src="imgA/fox_watch_TV.gif ">
     </div>
@@ -580,7 +531,10 @@
     </div>
     <div class="containerCenter">
         <div  class=" projectContent projectTextInsBorrow" ><br/><br/>
-        The sound effects in “Word to World” are from freesound.org. Activating sound effect will be triggered by the input language.
+        We also provide great audio experience besides the visualisations. The sound effects in “Word to World” are from freesound.org. I divide the words into three groups: <br/>
+        <br/>words that has sound effects attached;<br/>
+        words that are "silent";<br/>
+        words and sentences like "I listen to...", "I hear...", this will trigger a sound effect when detected.
     </div>
     <div class="containerCenter">
         <img class="videos_scribbling_speech" style="margin-top:5%; opacity:.8;" src="imgA/soundEffects.png">
